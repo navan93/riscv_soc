@@ -1,0 +1,3421 @@
+VERSION 5.7 ;
+   NAMESCASESENSITIVE ON ;
+   DIVIDERCHAR "/" ;
+   BUSBITCHARS "()" ;
+   DESIGN user_project_wrapper ;
+   TECHNOLOGY gf180mcuD ;
+   UNITS DISTANCE MICRONS 1000 ;
+   DIEAREA ( 0 0 ) ( 2980200 2980200 ) ;
+
+VIAS 0 ;
+END VIAS
+
+COMPONENTS 0 ;
+END COMPONENTS
+
+PINS 1134 ;
+   - io_in[15] + NET io_in[15]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2924040 2981400 ) N ;
+   - io_in[16] + NET io_in[16]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2593080 2981400 ) N ;
+   - io_in[17] + NET io_in[17]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2262120 2981400 ) N ;
+   - io_in[18] + NET io_in[18]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1931160 2981400 ) N ;
+   - io_in[19] + NET io_in[19]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1600200 2981400 ) N ;
+   - io_oeb[15] + NET io_oeb[15]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2703400 2981400 ) N ;
+   - io_oeb[16] + NET io_oeb[16]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2372440 2981400 ) N ;
+   - io_oeb[17] + NET io_oeb[17]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2041480 2981400 ) N ;
+   - io_oeb[18] + NET io_oeb[18]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1710520 2981400 ) N ;
+   - io_out[15] + NET io_out[15]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2813720 2981400 ) N ;
+   - io_out[16] + NET io_out[16]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2482760 2981400 ) N ;
+   - io_out[17] + NET io_out[17]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2151800 2981400 ) N ;
+   - io_out[18] + NET io_out[18]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1820840 2981400 ) N ;
+   - io_oeb[19] + NET io_oeb[19]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1379560 2981400 ) N ;
+   - io_oeb[20] + NET io_oeb[20]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1048600 2981400 ) N ;
+   - io_oeb[21] + NET io_oeb[21]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 717640 2981400 ) N ;
+   - io_oeb[22] + NET io_oeb[22]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 386680 2981400 ) N ;
+   - io_oeb[23] + NET io_oeb[23]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 55720 2981400 ) N ;
+   - io_in[20] + NET io_in[20]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1269240 2981400 ) N ;
+   - io_in[21] + NET io_in[21]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 938280 2981400 ) N ;
+   - io_in[22] + NET io_in[22]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 607320 2981400 ) N ;
+   - io_in[23] + NET io_in[23]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 276360 2981400 ) N ;
+   - io_out[19] + NET io_out[19]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1489880 2981400 ) N ;
+   - io_out[20] + NET io_out[20]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1158920 2981400 ) N ;
+   - io_out[21] + NET io_out[21]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 827960 2981400 ) N ;
+   - io_out[22] + NET io_out[22]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 497000 2981400 ) N ;
+   - io_out[23] + NET io_out[23]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 166040 2981400 ) N ;
+   - wbs_adr_i[12] + NET wbs_adr_i[12]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 495320 -1200 ) N ;
+   - wbs_adr_i[13] + NET wbs_adr_i[13]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 523880 -1200 ) N ;
+   - wbs_adr_i[14] + NET wbs_adr_i[14]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 552440 -1200 ) N ;
+   - wbs_adr_i[15] + NET wbs_adr_i[15]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 581000 -1200 ) N ;
+   - wbs_adr_i[16] + NET wbs_adr_i[16]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 609560 -1200 ) N ;
+   - wbs_adr_i[17] + NET wbs_adr_i[17]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 638120 -1200 ) N ;
+   - wbs_adr_i[18] + NET wbs_adr_i[18]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 666680 -1200 ) N ;
+   - wbs_adr_i[19] + NET wbs_adr_i[19]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 695240 -1200 ) N ;
+   - wbs_adr_i[1] + NET wbs_adr_i[1]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 152600 -1200 ) N ;
+   - wbs_adr_i[20] + NET wbs_adr_i[20]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 723800 -1200 ) N ;
+   - wbs_adr_i[21] + NET wbs_adr_i[21]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 752360 -1200 ) N ;
+   - wbs_adr_i[2] + NET wbs_adr_i[2]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 190680 -1200 ) N ;
+   - wbs_adr_i[3] + NET wbs_adr_i[3]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 228760 -1200 ) N ;
+   - wbs_adr_i[4] + NET wbs_adr_i[4]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 266840 -1200 ) N ;
+   - wbs_adr_i[5] + NET wbs_adr_i[5]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 295400 -1200 ) N ;
+   - wbs_adr_i[6] + NET wbs_adr_i[6]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 323960 -1200 ) N ;
+   - wbs_adr_i[7] + NET wbs_adr_i[7]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 352520 -1200 ) N ;
+   - wbs_adr_i[8] + NET wbs_adr_i[8]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 381080 -1200 ) N ;
+   - wbs_adr_i[9] + NET wbs_adr_i[9]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 409640 -1200 ) N ;
+   - wbs_cyc_i + NET wbs_cyc_i
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 85960 -1200 ) N ;
+   - wbs_dat_i[0] + NET wbs_dat_i[0]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 124040 -1200 ) N ;
+   - wbs_dat_i[10] + NET wbs_dat_i[10]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 447720 -1200 ) N ;
+   - wbs_dat_i[11] + NET wbs_dat_i[11]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 476280 -1200 ) N ;
+   - wbs_dat_i[12] + NET wbs_dat_i[12]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 504840 -1200 ) N ;
+   - wbs_dat_i[13] + NET wbs_dat_i[13]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 533400 -1200 ) N ;
+   - wbs_dat_i[14] + NET wbs_dat_i[14]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 561960 -1200 ) N ;
+   - wbs_dat_i[15] + NET wbs_dat_i[15]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 590520 -1200 ) N ;
+   - wbs_dat_i[16] + NET wbs_dat_i[16]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 619080 -1200 ) N ;
+   - wbs_dat_i[17] + NET wbs_dat_i[17]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 647640 -1200 ) N ;
+   - wbs_dat_i[18] + NET wbs_dat_i[18]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 676200 -1200 ) N ;
+   - wbs_dat_i[19] + NET wbs_dat_i[19]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 704760 -1200 ) N ;
+   - wbs_dat_i[1] + NET wbs_dat_i[1]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 162120 -1200 ) N ;
+   - wbs_dat_i[20] + NET wbs_dat_i[20]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 733320 -1200 ) N ;
+   - wbs_dat_i[21] + NET wbs_dat_i[21]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 761880 -1200 ) N ;
+   - wb_clk_i + NET wb_clk_i
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 57400 -1200 ) N ;
+   - wb_rst_i + NET wb_rst_i
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 66920 -1200 ) N ;
+   - wbs_ack_o + NET wbs_ack_o
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 76440 -1200 ) N ;
+   - wbs_adr_i[0] + NET wbs_adr_i[0]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 114520 -1200 ) N ;
+   - wbs_adr_i[10] + NET wbs_adr_i[10]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 438200 -1200 ) N ;
+   - wbs_dat_i[2] + NET wbs_dat_i[2]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 200200 -1200 ) N ;
+   - wbs_adr_i[11] + NET wbs_adr_i[11]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 466760 -1200 ) N ;
+   - wbs_dat_i[3] + NET wbs_dat_i[3]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 238280 -1200 ) N ;
+   - wbs_dat_i[4] + NET wbs_dat_i[4]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 276360 -1200 ) N ;
+   - wbs_dat_i[5] + NET wbs_dat_i[5]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 304920 -1200 ) N ;
+   - wbs_dat_i[6] + NET wbs_dat_i[6]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 333480 -1200 ) N ;
+   - wbs_dat_i[7] + NET wbs_dat_i[7]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 362040 -1200 ) N ;
+   - wbs_dat_i[8] + NET wbs_dat_i[8]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 390600 -1200 ) N ;
+   - wbs_dat_i[9] + NET wbs_dat_i[9]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 419160 -1200 ) N ;
+   - wbs_dat_o[0] + NET wbs_dat_o[0]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 133560 -1200 ) N ;
+   - wbs_dat_o[10] + NET wbs_dat_o[10]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 457240 -1200 ) N ;
+   - wbs_dat_o[11] + NET wbs_dat_o[11]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 485800 -1200 ) N ;
+   - wbs_dat_o[12] + NET wbs_dat_o[12]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 514360 -1200 ) N ;
+   - wbs_dat_o[13] + NET wbs_dat_o[13]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 542920 -1200 ) N ;
+   - wbs_dat_o[14] + NET wbs_dat_o[14]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 571480 -1200 ) N ;
+   - wbs_dat_o[15] + NET wbs_dat_o[15]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 600040 -1200 ) N ;
+   - wbs_dat_o[16] + NET wbs_dat_o[16]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 628600 -1200 ) N ;
+   - wbs_dat_o[17] + NET wbs_dat_o[17]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 657160 -1200 ) N ;
+   - wbs_dat_o[18] + NET wbs_dat_o[18]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 685720 -1200 ) N ;
+   - wbs_dat_o[19] + NET wbs_dat_o[19]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 714280 -1200 ) N ;
+   - wbs_dat_o[1] + NET wbs_dat_o[1]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 171640 -1200 ) N ;
+   - wbs_dat_o[20] + NET wbs_dat_o[20]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 742840 -1200 ) N ;
+   - wbs_dat_o[21] + NET wbs_dat_o[21]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 771400 -1200 ) N ;
+   - wbs_dat_o[2] + NET wbs_dat_o[2]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 209720 -1200 ) N ;
+   - wbs_dat_o[3] + NET wbs_dat_o[3]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 247800 -1200 ) N ;
+   - wbs_dat_o[4] + NET wbs_dat_o[4]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 285880 -1200 ) N ;
+   - wbs_dat_o[5] + NET wbs_dat_o[5]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 314440 -1200 ) N ;
+   - wbs_dat_o[6] + NET wbs_dat_o[6]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 343000 -1200 ) N ;
+   - wbs_dat_o[7] + NET wbs_dat_o[7]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 371560 -1200 ) N ;
+   - wbs_dat_o[8] + NET wbs_dat_o[8]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 400120 -1200 ) N ;
+   - wbs_dat_o[9] + NET wbs_dat_o[9]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 428680 -1200 ) N ;
+   - wbs_sel_i[0] + NET wbs_sel_i[0]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 143080 -1200 ) N ;
+   - wbs_sel_i[1] + NET wbs_sel_i[1]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 181160 -1200 ) N ;
+   - wbs_sel_i[2] + NET wbs_sel_i[2]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 219240 -1200 ) N ;
+   - wbs_sel_i[3] + NET wbs_sel_i[3]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 257320 -1200 ) N ;
+   - wbs_stb_i + NET wbs_stb_i
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 95480 -1200 ) N ;
+   - wbs_we_i + NET wbs_we_i
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 105000 -1200 ) N ;
+   - la_data_out[6] + NET la_data_out[6]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1247400 -1200 ) N ;
+   - la_oenb[4] + NET la_oenb[4]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1199800 -1200 ) N ;
+   - wbs_adr_i[22] + NET wbs_adr_i[22]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 780920 -1200 ) N ;
+   - la_oenb[5] + NET la_oenb[5]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1228360 -1200 ) N ;
+   - la_data_out[7] + NET la_data_out[7]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1275960 -1200 ) N ;
+   - la_oenb[6] + NET la_oenb[6]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1256920 -1200 ) N ;
+   - la_data_in[2] + NET la_data_in[2]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1123640 -1200 ) N ;
+   - wbs_dat_o[22] + NET wbs_dat_o[22]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 799960 -1200 ) N ;
+   - wbs_dat_o[23] + NET wbs_dat_o[23]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 828520 -1200 ) N ;
+   - wbs_dat_o[24] + NET wbs_dat_o[24]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 857080 -1200 ) N ;
+   - wbs_dat_o[25] + NET wbs_dat_o[25]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 885640 -1200 ) N ;
+   - wbs_dat_o[26] + NET wbs_dat_o[26]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 914200 -1200 ) N ;
+   - wbs_dat_o[27] + NET wbs_dat_o[27]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 942760 -1200 ) N ;
+   - wbs_dat_o[28] + NET wbs_dat_o[28]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 971320 -1200 ) N ;
+   - wbs_dat_o[29] + NET wbs_dat_o[29]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 999880 -1200 ) N ;
+   - wbs_dat_i[22] + NET wbs_dat_i[22]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 790440 -1200 ) N ;
+   - wbs_dat_o[30] + NET wbs_dat_o[30]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1028440 -1200 ) N ;
+   - wbs_dat_o[31] + NET wbs_dat_o[31]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1057000 -1200 ) N ;
+   - la_data_in[3] + NET la_data_in[3]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1152200 -1200 ) N ;
+   - la_oenb[7] + NET la_oenb[7]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1285480 -1200 ) N ;
+   - wbs_dat_i[23] + NET wbs_dat_i[23]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 819000 -1200 ) N ;
+   - la_oenb[8] + NET la_oenb[8]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1314040 -1200 ) N ;
+   - wbs_dat_i[24] + NET wbs_dat_i[24]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 847560 -1200 ) N ;
+   - la_oenb[9] + NET la_oenb[9]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1342600 -1200 ) N ;
+   - wbs_dat_i[25] + NET wbs_dat_i[25]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 876120 -1200 ) N ;
+   - wbs_adr_i[30] + NET wbs_adr_i[30]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1009400 -1200 ) N ;
+   - wbs_dat_i[26] + NET wbs_dat_i[26]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 904680 -1200 ) N ;
+   - la_data_out[8] + NET la_data_out[8]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1304520 -1200 ) N ;
+   - wbs_dat_i[27] + NET wbs_dat_i[27]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 933240 -1200 ) N ;
+   - wbs_adr_i[31] + NET wbs_adr_i[31]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1037960 -1200 ) N ;
+   - la_data_in[4] + NET la_data_in[4]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1180760 -1200 ) N ;
+   - wbs_dat_i[28] + NET wbs_dat_i[28]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 961800 -1200 ) N ;
+   - la_data_out[9] + NET la_data_out[9]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1333080 -1200 ) N ;
+   - la_data_in[5] + NET la_data_in[5]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1209320 -1200 ) N ;
+   - la_data_in[6] + NET la_data_in[6]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1237880 -1200 ) N ;
+   - la_data_in[7] + NET la_data_in[7]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1266440 -1200 ) N ;
+   - la_data_in[8] + NET la_data_in[8]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1295000 -1200 ) N ;
+   - la_data_in[9] + NET la_data_in[9]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1323560 -1200 ) N ;
+   - la_data_out[0] + NET la_data_out[0]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1076040 -1200 ) N ;
+   - la_data_out[10] + NET la_data_out[10]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1361640 -1200 ) N ;
+   - la_data_out[11] + NET la_data_out[11]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1390200 -1200 ) N ;
+   - la_data_out[12] + NET la_data_out[12]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1418760 -1200 ) N ;
+   - la_data_out[13] + NET la_data_out[13]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1447320 -1200 ) N ;
+   - la_data_out[14] + NET la_data_out[14]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1475880 -1200 ) N ;
+   - la_data_out[1] + NET la_data_out[1]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1104600 -1200 ) N ;
+   - la_data_out[2] + NET la_data_out[2]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1133160 -1200 ) N ;
+   - la_data_out[3] + NET la_data_out[3]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1161720 -1200 ) N ;
+   - la_oenb[2] + NET la_oenb[2]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1142680 -1200 ) N ;
+   - wbs_adr_i[29] + NET wbs_adr_i[29]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 980840 -1200 ) N ;
+   - la_oenb[3] + NET la_oenb[3]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1171240 -1200 ) N ;
+   - wbs_dat_i[29] + NET wbs_dat_i[29]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 990360 -1200 ) N ;
+   - wbs_adr_i[23] + NET wbs_adr_i[23]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 809480 -1200 ) N ;
+   - la_oenb[0] + NET la_oenb[0]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1085560 -1200 ) N ;
+   - wbs_adr_i[24] + NET wbs_adr_i[24]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 838040 -1200 ) N ;
+   - wbs_dat_i[30] + NET wbs_dat_i[30]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1018920 -1200 ) N ;
+   - la_data_in[0] + NET la_data_in[0]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1066520 -1200 ) N ;
+   - wbs_dat_i[31] + NET wbs_dat_i[31]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1047480 -1200 ) N ;
+   - la_data_in[10] + NET la_data_in[10]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1352120 -1200 ) N ;
+   - la_oenb[10] + NET la_oenb[10]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1371160 -1200 ) N ;
+   - la_data_in[11] + NET la_data_in[11]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1380680 -1200 ) N ;
+   - wbs_adr_i[25] + NET wbs_adr_i[25]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 866600 -1200 ) N ;
+   - la_data_in[12] + NET la_data_in[12]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1409240 -1200 ) N ;
+   - la_oenb[11] + NET la_oenb[11]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1399720 -1200 ) N ;
+   - la_data_in[13] + NET la_data_in[13]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1437800 -1200 ) N ;
+   - wbs_adr_i[26] + NET wbs_adr_i[26]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 895160 -1200 ) N ;
+   - la_data_in[14] + NET la_data_in[14]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1466360 -1200 ) N ;
+   - la_oenb[12] + NET la_oenb[12]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1428280 -1200 ) N ;
+   - wbs_adr_i[27] + NET wbs_adr_i[27]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 923720 -1200 ) N ;
+   - la_oenb[13] + NET la_oenb[13]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1456840 -1200 ) N ;
+   - la_data_out[4] + NET la_data_out[4]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1190280 -1200 ) N ;
+   - la_oenb[14] + NET la_oenb[14]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1485400 -1200 ) N ;
+   - wbs_adr_i[28] + NET wbs_adr_i[28]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 952280 -1200 ) N ;
+   - la_data_in[1] + NET la_data_in[1]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1095080 -1200 ) N ;
+   - la_oenb[1] + NET la_oenb[1]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1114120 -1200 ) N ;
+   - la_data_out[5] + NET la_data_out[5]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1218840 -1200 ) N ;
+   - la_data_in[21] + NET la_data_in[21]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1666280 -1200 ) N ;
+   - la_oenb[34] + NET la_oenb[34]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2056600 -1200 ) N ;
+   - la_data_in[22] + NET la_data_in[22]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1694840 -1200 ) N ;
+   - la_oenb[35] + NET la_oenb[35]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2085160 -1200 ) N ;
+   - la_data_in[23] + NET la_data_in[23]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1723400 -1200 ) N ;
+   - la_oenb[36] + NET la_oenb[36]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2113720 -1200 ) N ;
+   - la_data_in[24] + NET la_data_in[24]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1751960 -1200 ) N ;
+   - la_oenb[37] + NET la_oenb[37]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2142280 -1200 ) N ;
+   - la_data_in[25] + NET la_data_in[25]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1780520 -1200 ) N ;
+   - la_oenb[38] + NET la_oenb[38]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2170840 -1200 ) N ;
+   - la_data_in[26] + NET la_data_in[26]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1809080 -1200 ) N ;
+   - la_oenb[39] + NET la_oenb[39]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2199400 -1200 ) N ;
+   - la_data_in[27] + NET la_data_in[27]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1837640 -1200 ) N ;
+   - la_data_in[28] + NET la_data_in[28]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1866200 -1200 ) N ;
+   - la_data_in[29] + NET la_data_in[29]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1894760 -1200 ) N ;
+   - la_data_in[30] + NET la_data_in[30]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1923320 -1200 ) N ;
+   - la_data_in[31] + NET la_data_in[31]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1951880 -1200 ) N ;
+   - la_data_in[32] + NET la_data_in[32]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1980440 -1200 ) N ;
+   - la_data_in[33] + NET la_data_in[33]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2009000 -1200 ) N ;
+   - la_data_in[34] + NET la_data_in[34]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2037560 -1200 ) N ;
+   - la_data_in[35] + NET la_data_in[35]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2066120 -1200 ) N ;
+   - la_data_in[36] + NET la_data_in[36]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2094680 -1200 ) N ;
+   - la_data_in[37] + NET la_data_in[37]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2123240 -1200 ) N ;
+   - la_data_in[38] + NET la_data_in[38]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2151800 -1200 ) N ;
+   - la_data_in[39] + NET la_data_in[39]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2180360 -1200 ) N ;
+   - la_data_out[15] + NET la_data_out[15]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1504440 -1200 ) N ;
+   - la_data_out[16] + NET la_data_out[16]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1533000 -1200 ) N ;
+   - la_data_out[17] + NET la_data_out[17]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1561560 -1200 ) N ;
+   - la_data_out[18] + NET la_data_out[18]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1590120 -1200 ) N ;
+   - la_data_out[19] + NET la_data_out[19]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1618680 -1200 ) N ;
+   - la_data_out[20] + NET la_data_out[20]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1647240 -1200 ) N ;
+   - la_data_out[21] + NET la_data_out[21]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1675800 -1200 ) N ;
+   - la_data_out[22] + NET la_data_out[22]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1704360 -1200 ) N ;
+   - la_data_out[23] + NET la_data_out[23]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1732920 -1200 ) N ;
+   - la_data_out[24] + NET la_data_out[24]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1761480 -1200 ) N ;
+   - la_data_out[25] + NET la_data_out[25]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1790040 -1200 ) N ;
+   - la_data_out[26] + NET la_data_out[26]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1818600 -1200 ) N ;
+   - la_data_out[27] + NET la_data_out[27]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1847160 -1200 ) N ;
+   - la_data_out[28] + NET la_data_out[28]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1875720 -1200 ) N ;
+   - la_data_out[29] + NET la_data_out[29]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1904280 -1200 ) N ;
+   - la_data_out[30] + NET la_data_out[30]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1932840 -1200 ) N ;
+   - la_data_out[31] + NET la_data_out[31]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1961400 -1200 ) N ;
+   - la_data_out[32] + NET la_data_out[32]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1989960 -1200 ) N ;
+   - la_data_out[33] + NET la_data_out[33]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2018520 -1200 ) N ;
+   - la_data_out[34] + NET la_data_out[34]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2047080 -1200 ) N ;
+   - la_data_out[35] + NET la_data_out[35]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2075640 -1200 ) N ;
+   - la_data_out[36] + NET la_data_out[36]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2104200 -1200 ) N ;
+   - la_data_out[37] + NET la_data_out[37]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2132760 -1200 ) N ;
+   - la_data_out[38] + NET la_data_out[38]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2161320 -1200 ) N ;
+   - la_data_out[39] + NET la_data_out[39]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2189880 -1200 ) N ;
+   - la_oenb[15] + NET la_oenb[15]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1513960 -1200 ) N ;
+   - la_oenb[16] + NET la_oenb[16]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1542520 -1200 ) N ;
+   - la_oenb[17] + NET la_oenb[17]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1571080 -1200 ) N ;
+   - la_oenb[18] + NET la_oenb[18]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1599640 -1200 ) N ;
+   - la_oenb[19] + NET la_oenb[19]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1628200 -1200 ) N ;
+   - la_oenb[20] + NET la_oenb[20]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1656760 -1200 ) N ;
+   - la_oenb[21] + NET la_oenb[21]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1685320 -1200 ) N ;
+   - la_oenb[22] + NET la_oenb[22]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1713880 -1200 ) N ;
+   - la_oenb[23] + NET la_oenb[23]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1742440 -1200 ) N ;
+   - la_oenb[24] + NET la_oenb[24]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1771000 -1200 ) N ;
+   - la_oenb[25] + NET la_oenb[25]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1799560 -1200 ) N ;
+   - la_oenb[26] + NET la_oenb[26]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1828120 -1200 ) N ;
+   - la_data_in[15] + NET la_data_in[15]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1494920 -1200 ) N ;
+   - la_oenb[27] + NET la_oenb[27]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1856680 -1200 ) N ;
+   - la_data_in[16] + NET la_data_in[16]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1523480 -1200 ) N ;
+   - la_oenb[28] + NET la_oenb[28]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1885240 -1200 ) N ;
+   - la_data_in[17] + NET la_data_in[17]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1552040 -1200 ) N ;
+   - la_oenb[29] + NET la_oenb[29]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1913800 -1200 ) N ;
+   - la_data_in[18] + NET la_data_in[18]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1580600 -1200 ) N ;
+   - la_data_in[19] + NET la_data_in[19]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1609160 -1200 ) N ;
+   - la_oenb[30] + NET la_oenb[30]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1942360 -1200 ) N ;
+   - la_oenb[31] + NET la_oenb[31]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1970920 -1200 ) N ;
+   - la_oenb[32] + NET la_oenb[32]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1999480 -1200 ) N ;
+   - la_data_in[20] + NET la_data_in[20]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 1637720 -1200 ) N ;
+   - la_oenb[33] + NET la_oenb[33]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2028040 -1200 ) N ;
+   - la_oenb[43] + NET la_oenb[43]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2313640 -1200 ) N ;
+   - user_irq[1] + NET user_irq[1]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2913400 -1200 ) N ;
+   - la_oenb[52] + NET la_oenb[52]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2570680 -1200 ) N ;
+   - la_data_out[53] + NET la_data_out[53]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2589720 -1200 ) N ;
+   - la_oenb[53] + NET la_oenb[53]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2599240 -1200 ) N ;
+   - la_data_out[61] + NET la_data_out[61]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2818200 -1200 ) N ;
+   - la_oenb[54] + NET la_oenb[54]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2627800 -1200 ) N ;
+   - la_oenb[45] + NET la_oenb[45]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2370760 -1200 ) N ;
+   - la_data_in[40] + NET la_data_in[40]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2208920 -1200 ) N ;
+   - user_irq[2] + NET user_irq[2]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2922920 -1200 ) N ;
+   - la_oenb[55] + NET la_oenb[55]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2656360 -1200 ) N ;
+   - la_data_out[51] + NET la_data_out[51]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2532600 -1200 ) N ;
+   - la_data_in[41] + NET la_data_in[41]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2237480 -1200 ) N ;
+   - la_data_in[62] + NET la_data_in[62]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2837240 -1200 ) N ;
+   - la_data_out[50] + NET la_data_out[50]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2504040 -1200 ) N ;
+   - la_data_out[49] + NET la_data_out[49]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2475480 -1200 ) N ;
+   - la_data_out[40] + NET la_data_out[40]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2218440 -1200 ) N ;
+   - la_data_out[62] + NET la_data_out[62]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2846760 -1200 ) N ;
+   - la_data_out[41] + NET la_data_out[41]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2247000 -1200 ) N ;
+   - la_oenb[46] + NET la_oenb[46]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2399320 -1200 ) N ;
+   - la_data_out[42] + NET la_data_out[42]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2275560 -1200 ) N ;
+   - la_data_in[59] + NET la_data_in[59]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2751560 -1200 ) N ;
+   - la_data_out[56] + NET la_data_out[56]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2675400 -1200 ) N ;
+   - la_oenb[56] + NET la_oenb[56]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2684920 -1200 ) N ;
+   - la_data_in[42] + NET la_data_in[42]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2266040 -1200 ) N ;
+   - la_oenb[57] + NET la_oenb[57]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2713480 -1200 ) N ;
+   - la_data_out[63] + NET la_data_out[63]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2875320 -1200 ) N ;
+   - la_data_in[43] + NET la_data_in[43]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2294600 -1200 ) N ;
+   - la_oenb[47] + NET la_oenb[47]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2427880 -1200 ) N ;
+   - la_oenb[58] + NET la_oenb[58]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2742040 -1200 ) N ;
+   - la_data_in[63] + NET la_data_in[63]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2865800 -1200 ) N ;
+   - la_data_in[44] + NET la_data_in[44]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2323160 -1200 ) N ;
+   - la_data_out[55] + NET la_data_out[55]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2646840 -1200 ) N ;
+   - la_oenb[59] + NET la_oenb[59]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2770600 -1200 ) N ;
+   - la_data_out[45] + NET la_data_out[45]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2361240 -1200 ) N ;
+   - la_data_in[45] + NET la_data_in[45]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2351720 -1200 ) N ;
+   - la_oenb[48] + NET la_oenb[48]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2456440 -1200 ) N ;
+   - la_data_out[58] + NET la_data_out[58]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2732520 -1200 ) N ;
+   - la_data_in[60] + NET la_data_in[60]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2780120 -1200 ) N ;
+   - la_data_in[46] + NET la_data_in[46]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2380280 -1200 ) N ;
+   - la_oenb[40] + NET la_oenb[40]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2227960 -1200 ) N ;
+   - la_oenb[60] + NET la_oenb[60]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2799160 -1200 ) N ;
+   - la_data_out[46] + NET la_data_out[46]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2389800 -1200 ) N ;
+   - la_data_in[47] + NET la_data_in[47]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2408840 -1200 ) N ;
+   - la_oenb[49] + NET la_oenb[49]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2485000 -1200 ) N ;
+   - la_oenb[61] + NET la_oenb[61]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2827720 -1200 ) N ;
+   - user_clock2 + NET user_clock2
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2894360 -1200 ) N ;
+   - la_data_in[48] + NET la_data_in[48]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2437400 -1200 ) N ;
+   - la_data_out[52] + NET la_data_out[52]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2561160 -1200 ) N ;
+   - la_oenb[62] + NET la_oenb[62]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2856280 -1200 ) N ;
+   - la_data_out[47] + NET la_data_out[47]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2418360 -1200 ) N ;
+   - la_data_in[49] + NET la_data_in[49]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2465960 -1200 ) N ;
+   - la_data_out[57] + NET la_data_out[57]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2703960 -1200 ) N ;
+   - la_oenb[63] + NET la_oenb[63]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2884840 -1200 ) N ;
+   - la_data_in[58] + NET la_data_in[58]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2723000 -1200 ) N ;
+   - la_data_out[59] + NET la_data_out[59]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2761080 -1200 ) N ;
+   - la_oenb[41] + NET la_oenb[41]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2256520 -1200 ) N ;
+   - la_data_out[44] + NET la_data_out[44]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2332680 -1200 ) N ;
+   - la_data_out[48] + NET la_data_out[48]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2446920 -1200 ) N ;
+   - la_data_in[50] + NET la_data_in[50]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2494520 -1200 ) N ;
+   - la_data_out[43] + NET la_data_out[43]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2304120 -1200 ) N ;
+   - la_data_out[60] + NET la_data_out[60]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2789640 -1200 ) N ;
+   - user_irq[0] + NET user_irq[0]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2903880 -1200 ) N ;
+   - la_data_in[51] + NET la_data_in[51]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2523080 -1200 ) N ;
+   - la_oenb[50] + NET la_oenb[50]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2513560 -1200 ) N ;
+   - la_data_in[52] + NET la_data_in[52]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2551640 -1200 ) N ;
+   - la_data_out[54] + NET la_data_out[54]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2618280 -1200 ) N ;
+   - la_data_in[53] + NET la_data_in[53]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2580200 -1200 ) N ;
+   - la_oenb[42] + NET la_oenb[42]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2285080 -1200 ) N ;
+   - la_data_in[54] + NET la_data_in[54]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2608760 -1200 ) N ;
+   - la_data_in[61] + NET la_data_in[61]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2808680 -1200 ) N ;
+   - la_data_in[55] + NET la_data_in[55]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2637320 -1200 ) N ;
+   - la_oenb[51] + NET la_oenb[51]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2542120 -1200 ) N ;
+   - la_data_in[56] + NET la_data_in[56]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2665880 -1200 ) N ;
+   - la_oenb[44] + NET la_oenb[44]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2342200 -1200 ) N ;
+   - la_data_in[57] + NET la_data_in[57]
+     + PORT
+        + LAYER Metal2 ( -560 -3600 ) ( 560 3600 )        + PLACED ( 2694440 -1200 ) N ;
+   - io_in[0] + NET io_in[0]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 36120 ) N ;
+   - io_in[10] + NET io_in[10]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2018520 ) N ;
+   - io_in[11] + NET io_in[11]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2216760 ) N ;
+   - io_in[12] + NET io_in[12]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2415000 ) N ;
+   - io_in[13] + NET io_in[13]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2613240 ) N ;
+   - io_in[14] + NET io_in[14]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2811480 ) N ;
+   - io_in[1] + NET io_in[1]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 234360 ) N ;
+   - io_in[24] + NET io_in[24]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2936360 ) N ;
+   - io_in[25] + NET io_in[25]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2724680 ) N ;
+   - io_in[26] + NET io_in[26]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2513000 ) N ;
+   - io_in[27] + NET io_in[27]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2301320 ) N ;
+   - io_in[28] + NET io_in[28]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2089640 ) N ;
+   - io_in[29] + NET io_in[29]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1877960 ) N ;
+   - io_in[2] + NET io_in[2]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 432600 ) N ;
+   - io_in[30] + NET io_in[30]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1666280 ) N ;
+   - io_in[31] + NET io_in[31]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1454600 ) N ;
+   - io_in[32] + NET io_in[32]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1242920 ) N ;
+   - io_in[33] + NET io_in[33]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1031240 ) N ;
+   - io_in[34] + NET io_in[34]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 819560 ) N ;
+   - io_in[35] + NET io_in[35]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 607880 ) N ;
+   - io_in[36] + NET io_in[36]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 396200 ) N ;
+   - io_in[37] + NET io_in[37]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 184520 ) N ;
+   - io_in[3] + NET io_in[3]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 630840 ) N ;
+   - io_in[4] + NET io_in[4]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 829080 ) N ;
+   - io_in[5] + NET io_in[5]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1027320 ) N ;
+   - io_in[6] + NET io_in[6]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1225560 ) N ;
+   - io_in[7] + NET io_in[7]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1423800 ) N ;
+   - io_in[8] + NET io_in[8]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1622040 ) N ;
+   - io_in[9] + NET io_in[9]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1820280 ) N ;
+   - io_oeb[0] + NET io_oeb[0]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 168280 ) N ;
+   - io_oeb[10] + NET io_oeb[10]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2150680 ) N ;
+   - io_oeb[11] + NET io_oeb[11]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2348920 ) N ;
+   - io_oeb[12] + NET io_oeb[12]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2547160 ) N ;
+   - io_oeb[13] + NET io_oeb[13]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2745400 ) N ;
+   - io_oeb[14] + NET io_oeb[14]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2943640 ) N ;
+   - io_oeb[1] + NET io_oeb[1]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 366520 ) N ;
+   - io_oeb[24] + NET io_oeb[24]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2795240 ) N ;
+   - io_oeb[25] + NET io_oeb[25]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2583560 ) N ;
+   - io_oeb[26] + NET io_oeb[26]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2371880 ) N ;
+   - io_oeb[27] + NET io_oeb[27]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2160200 ) N ;
+   - io_oeb[28] + NET io_oeb[28]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1948520 ) N ;
+   - io_oeb[29] + NET io_oeb[29]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1736840 ) N ;
+   - io_oeb[2] + NET io_oeb[2]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 564760 ) N ;
+   - io_oeb[30] + NET io_oeb[30]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1525160 ) N ;
+   - io_oeb[31] + NET io_oeb[31]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1313480 ) N ;
+   - io_oeb[32] + NET io_oeb[32]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1101800 ) N ;
+   - io_oeb[33] + NET io_oeb[33]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 890120 ) N ;
+   - io_oeb[34] + NET io_oeb[34]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 678440 ) N ;
+   - io_oeb[35] + NET io_oeb[35]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 466760 ) N ;
+   - io_oeb[36] + NET io_oeb[36]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 255080 ) N ;
+   - io_oeb[37] + NET io_oeb[37]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 43400 ) N ;
+   - io_oeb[3] + NET io_oeb[3]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 763000 ) N ;
+   - io_oeb[4] + NET io_oeb[4]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 961240 ) N ;
+   - io_oeb[5] + NET io_oeb[5]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1159480 ) N ;
+   - io_oeb[6] + NET io_oeb[6]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1357720 ) N ;
+   - io_oeb[7] + NET io_oeb[7]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1555960 ) N ;
+   - io_oeb[8] + NET io_oeb[8]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1754200 ) N ;
+   - io_oeb[9] + NET io_oeb[9]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1952440 ) N ;
+   - io_out[0] + NET io_out[0]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 102200 ) N ;
+   - io_out[10] + NET io_out[10]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2084600 ) N ;
+   - io_out[11] + NET io_out[11]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2282840 ) N ;
+   - io_out[12] + NET io_out[12]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2481080 ) N ;
+   - io_out[13] + NET io_out[13]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2679320 ) N ;
+   - io_out[14] + NET io_out[14]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 2877560 ) N ;
+   - io_out[1] + NET io_out[1]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 300440 ) N ;
+   - io_out[24] + NET io_out[24]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2865800 ) N ;
+   - io_out[25] + NET io_out[25]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2654120 ) N ;
+   - io_out[26] + NET io_out[26]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2442440 ) N ;
+   - io_out[27] + NET io_out[27]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2230760 ) N ;
+   - io_out[28] + NET io_out[28]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 2019080 ) N ;
+   - io_out[29] + NET io_out[29]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1807400 ) N ;
+   - io_out[2] + NET io_out[2]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 498680 ) N ;
+   - io_out[30] + NET io_out[30]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1595720 ) N ;
+   - io_out[31] + NET io_out[31]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1384040 ) N ;
+   - io_out[32] + NET io_out[32]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 1172360 ) N ;
+   - io_out[33] + NET io_out[33]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 960680 ) N ;
+   - io_out[34] + NET io_out[34]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 749000 ) N ;
+   - io_out[35] + NET io_out[35]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 537320 ) N ;
+   - io_out[36] + NET io_out[36]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 325640 ) N ;
+   - io_out[37] + NET io_out[37]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( -1200 113960 ) N ;
+   - io_out[3] + NET io_out[3]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 696920 ) N ;
+   - io_out[4] + NET io_out[4]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 895160 ) N ;
+   - io_out[5] + NET io_out[5]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1093400 ) N ;
+   - io_out[6] + NET io_out[6]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1291640 ) N ;
+   - io_out[7] + NET io_out[7]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1489880 ) N ;
+   - io_out[8] + NET io_out[8]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1688120 ) N ;
+   - io_out[9] + NET io_out[9]
+     + PORT
+        + LAYER Metal3 ( -3600 -560 ) ( 3600 560 )        + PLACED ( 2981400 1886360 ) N ;
+   - io_in[15] + NET io_in[15]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2924040 2981400 ) N ;
+   - io_in[16] + NET io_in[16]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2593080 2981400 ) N ;
+   - io_in[17] + NET io_in[17]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2262120 2981400 ) N ;
+   - io_in[18] + NET io_in[18]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1931160 2981400 ) N ;
+   - io_in[19] + NET io_in[19]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1600200 2981400 ) N ;
+   - io_oeb[15] + NET io_oeb[15]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2703400 2981400 ) N ;
+   - io_oeb[16] + NET io_oeb[16]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2372440 2981400 ) N ;
+   - io_oeb[17] + NET io_oeb[17]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2041480 2981400 ) N ;
+   - io_oeb[18] + NET io_oeb[18]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1710520 2981400 ) N ;
+   - io_out[15] + NET io_out[15]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2813720 2981400 ) N ;
+   - io_out[16] + NET io_out[16]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2482760 2981400 ) N ;
+   - io_out[17] + NET io_out[17]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2151800 2981400 ) N ;
+   - io_out[18] + NET io_out[18]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1820840 2981400 ) N ;
+   - io_oeb[19] + NET io_oeb[19]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1379560 2981400 ) N ;
+   - io_oeb[20] + NET io_oeb[20]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1048600 2981400 ) N ;
+   - io_oeb[21] + NET io_oeb[21]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 717640 2981400 ) N ;
+   - io_oeb[22] + NET io_oeb[22]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 386680 2981400 ) N ;
+   - io_oeb[23] + NET io_oeb[23]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 55720 2981400 ) N ;
+   - io_in[20] + NET io_in[20]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1269240 2981400 ) N ;
+   - io_in[21] + NET io_in[21]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 938280 2981400 ) N ;
+   - io_in[22] + NET io_in[22]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 607320 2981400 ) N ;
+   - io_in[23] + NET io_in[23]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 276360 2981400 ) N ;
+   - io_out[19] + NET io_out[19]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1489880 2981400 ) N ;
+   - io_out[20] + NET io_out[20]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1158920 2981400 ) N ;
+   - io_out[21] + NET io_out[21]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 827960 2981400 ) N ;
+   - io_out[22] + NET io_out[22]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 497000 2981400 ) N ;
+   - io_out[23] + NET io_out[23]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 166040 2981400 ) N ;
+   - wb_clk_i + NET wb_clk_i
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 57400 -1200 ) N ;
+   - wb_rst_i + NET wb_rst_i
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 66920 -1200 ) N ;
+   - wbs_ack_o + NET wbs_ack_o
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 76440 -1200 ) N ;
+   - wbs_adr_i[0] + NET wbs_adr_i[0]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 114520 -1200 ) N ;
+   - wbs_adr_i[10] + NET wbs_adr_i[10]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 438200 -1200 ) N ;
+   - wbs_adr_i[11] + NET wbs_adr_i[11]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 466760 -1200 ) N ;
+   - wbs_adr_i[12] + NET wbs_adr_i[12]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 495320 -1200 ) N ;
+   - wbs_adr_i[13] + NET wbs_adr_i[13]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 523880 -1200 ) N ;
+   - wbs_adr_i[14] + NET wbs_adr_i[14]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 552440 -1200 ) N ;
+   - wbs_adr_i[15] + NET wbs_adr_i[15]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 581000 -1200 ) N ;
+   - wbs_adr_i[16] + NET wbs_adr_i[16]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 609560 -1200 ) N ;
+   - wbs_adr_i[17] + NET wbs_adr_i[17]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 638120 -1200 ) N ;
+   - wbs_adr_i[18] + NET wbs_adr_i[18]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 666680 -1200 ) N ;
+   - wbs_adr_i[19] + NET wbs_adr_i[19]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 695240 -1200 ) N ;
+   - wbs_adr_i[1] + NET wbs_adr_i[1]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 152600 -1200 ) N ;
+   - wbs_adr_i[20] + NET wbs_adr_i[20]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 723800 -1200 ) N ;
+   - wbs_adr_i[21] + NET wbs_adr_i[21]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 752360 -1200 ) N ;
+   - wbs_adr_i[2] + NET wbs_adr_i[2]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 190680 -1200 ) N ;
+   - wbs_adr_i[3] + NET wbs_adr_i[3]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 228760 -1200 ) N ;
+   - wbs_adr_i[4] + NET wbs_adr_i[4]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 266840 -1200 ) N ;
+   - wbs_adr_i[5] + NET wbs_adr_i[5]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 295400 -1200 ) N ;
+   - wbs_adr_i[6] + NET wbs_adr_i[6]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 323960 -1200 ) N ;
+   - wbs_adr_i[7] + NET wbs_adr_i[7]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 352520 -1200 ) N ;
+   - wbs_adr_i[8] + NET wbs_adr_i[8]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 381080 -1200 ) N ;
+   - wbs_adr_i[9] + NET wbs_adr_i[9]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 409640 -1200 ) N ;
+   - wbs_cyc_i + NET wbs_cyc_i
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 85960 -1200 ) N ;
+   - wbs_dat_i[0] + NET wbs_dat_i[0]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 124040 -1200 ) N ;
+   - wbs_dat_i[10] + NET wbs_dat_i[10]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 447720 -1200 ) N ;
+   - wbs_dat_i[11] + NET wbs_dat_i[11]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 476280 -1200 ) N ;
+   - wbs_dat_i[12] + NET wbs_dat_i[12]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 504840 -1200 ) N ;
+   - wbs_dat_i[13] + NET wbs_dat_i[13]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 533400 -1200 ) N ;
+   - wbs_dat_i[14] + NET wbs_dat_i[14]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 561960 -1200 ) N ;
+   - wbs_dat_i[15] + NET wbs_dat_i[15]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 590520 -1200 ) N ;
+   - wbs_dat_i[16] + NET wbs_dat_i[16]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 619080 -1200 ) N ;
+   - wbs_dat_i[17] + NET wbs_dat_i[17]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 647640 -1200 ) N ;
+   - wbs_dat_i[18] + NET wbs_dat_i[18]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 676200 -1200 ) N ;
+   - wbs_dat_i[19] + NET wbs_dat_i[19]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 704760 -1200 ) N ;
+   - wbs_dat_i[1] + NET wbs_dat_i[1]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 162120 -1200 ) N ;
+   - wbs_dat_i[20] + NET wbs_dat_i[20]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 733320 -1200 ) N ;
+   - wbs_dat_i[21] + NET wbs_dat_i[21]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 761880 -1200 ) N ;
+   - wbs_dat_i[2] + NET wbs_dat_i[2]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 200200 -1200 ) N ;
+   - wbs_dat_i[3] + NET wbs_dat_i[3]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 238280 -1200 ) N ;
+   - wbs_dat_i[4] + NET wbs_dat_i[4]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 276360 -1200 ) N ;
+   - wbs_dat_i[5] + NET wbs_dat_i[5]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 304920 -1200 ) N ;
+   - wbs_dat_i[6] + NET wbs_dat_i[6]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 333480 -1200 ) N ;
+   - wbs_dat_i[7] + NET wbs_dat_i[7]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 362040 -1200 ) N ;
+   - wbs_dat_i[8] + NET wbs_dat_i[8]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 390600 -1200 ) N ;
+   - wbs_dat_i[9] + NET wbs_dat_i[9]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 419160 -1200 ) N ;
+   - wbs_dat_o[0] + NET wbs_dat_o[0]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 133560 -1200 ) N ;
+   - wbs_dat_o[10] + NET wbs_dat_o[10]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 457240 -1200 ) N ;
+   - wbs_dat_o[11] + NET wbs_dat_o[11]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 485800 -1200 ) N ;
+   - wbs_dat_o[12] + NET wbs_dat_o[12]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 514360 -1200 ) N ;
+   - wbs_dat_o[13] + NET wbs_dat_o[13]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 542920 -1200 ) N ;
+   - wbs_dat_o[14] + NET wbs_dat_o[14]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 571480 -1200 ) N ;
+   - wbs_dat_o[15] + NET wbs_dat_o[15]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 600040 -1200 ) N ;
+   - wbs_dat_o[16] + NET wbs_dat_o[16]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 628600 -1200 ) N ;
+   - wbs_dat_o[17] + NET wbs_dat_o[17]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 657160 -1200 ) N ;
+   - wbs_dat_o[18] + NET wbs_dat_o[18]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 685720 -1200 ) N ;
+   - wbs_dat_o[19] + NET wbs_dat_o[19]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 714280 -1200 ) N ;
+   - wbs_dat_o[1] + NET wbs_dat_o[1]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 171640 -1200 ) N ;
+   - wbs_dat_o[20] + NET wbs_dat_o[20]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 742840 -1200 ) N ;
+   - wbs_dat_o[21] + NET wbs_dat_o[21]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 771400 -1200 ) N ;
+   - wbs_dat_o[2] + NET wbs_dat_o[2]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 209720 -1200 ) N ;
+   - wbs_dat_o[3] + NET wbs_dat_o[3]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 247800 -1200 ) N ;
+   - wbs_dat_o[4] + NET wbs_dat_o[4]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 285880 -1200 ) N ;
+   - wbs_dat_o[5] + NET wbs_dat_o[5]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 314440 -1200 ) N ;
+   - wbs_dat_o[6] + NET wbs_dat_o[6]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 343000 -1200 ) N ;
+   - wbs_dat_o[7] + NET wbs_dat_o[7]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 371560 -1200 ) N ;
+   - wbs_dat_o[8] + NET wbs_dat_o[8]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 400120 -1200 ) N ;
+   - wbs_dat_o[9] + NET wbs_dat_o[9]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 428680 -1200 ) N ;
+   - wbs_sel_i[0] + NET wbs_sel_i[0]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 143080 -1200 ) N ;
+   - wbs_sel_i[1] + NET wbs_sel_i[1]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 181160 -1200 ) N ;
+   - wbs_sel_i[2] + NET wbs_sel_i[2]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 219240 -1200 ) N ;
+   - wbs_sel_i[3] + NET wbs_sel_i[3]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 257320 -1200 ) N ;
+   - wbs_stb_i + NET wbs_stb_i
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 95480 -1200 ) N ;
+   - wbs_we_i + NET wbs_we_i
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 105000 -1200 ) N ;
+   - la_data_out[1] + NET la_data_out[1]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1104600 -1200 ) N ;
+   - la_data_out[2] + NET la_data_out[2]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1133160 -1200 ) N ;
+   - la_data_out[3] + NET la_data_out[3]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1161720 -1200 ) N ;
+   - la_data_out[4] + NET la_data_out[4]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1190280 -1200 ) N ;
+   - la_data_out[5] + NET la_data_out[5]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1218840 -1200 ) N ;
+   - la_data_out[6] + NET la_data_out[6]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1247400 -1200 ) N ;
+   - la_data_out[7] + NET la_data_out[7]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1275960 -1200 ) N ;
+   - la_data_out[8] + NET la_data_out[8]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1304520 -1200 ) N ;
+   - la_data_out[9] + NET la_data_out[9]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1333080 -1200 ) N ;
+   - la_oenb[0] + NET la_oenb[0]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1085560 -1200 ) N ;
+   - la_oenb[10] + NET la_oenb[10]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1371160 -1200 ) N ;
+   - la_oenb[11] + NET la_oenb[11]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1399720 -1200 ) N ;
+   - la_oenb[12] + NET la_oenb[12]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1428280 -1200 ) N ;
+   - la_oenb[13] + NET la_oenb[13]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1456840 -1200 ) N ;
+   - la_oenb[14] + NET la_oenb[14]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1485400 -1200 ) N ;
+   - la_oenb[1] + NET la_oenb[1]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1114120 -1200 ) N ;
+   - la_oenb[2] + NET la_oenb[2]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1142680 -1200 ) N ;
+   - la_oenb[3] + NET la_oenb[3]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1171240 -1200 ) N ;
+   - la_oenb[4] + NET la_oenb[4]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1199800 -1200 ) N ;
+   - wbs_dat_i[22] + NET wbs_dat_i[22]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 790440 -1200 ) N ;
+   - wbs_dat_i[23] + NET wbs_dat_i[23]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 819000 -1200 ) N ;
+   - wbs_dat_i[24] + NET wbs_dat_i[24]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 847560 -1200 ) N ;
+   - wbs_dat_i[25] + NET wbs_dat_i[25]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 876120 -1200 ) N ;
+   - wbs_dat_i[26] + NET wbs_dat_i[26]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 904680 -1200 ) N ;
+   - wbs_dat_i[27] + NET wbs_dat_i[27]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 933240 -1200 ) N ;
+   - wbs_dat_i[28] + NET wbs_dat_i[28]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 961800 -1200 ) N ;
+   - wbs_dat_i[29] + NET wbs_dat_i[29]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 990360 -1200 ) N ;
+   - la_oenb[5] + NET la_oenb[5]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1228360 -1200 ) N ;
+   - wbs_dat_i[30] + NET wbs_dat_i[30]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1018920 -1200 ) N ;
+   - wbs_dat_i[31] + NET wbs_dat_i[31]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1047480 -1200 ) N ;
+   - la_oenb[6] + NET la_oenb[6]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1256920 -1200 ) N ;
+   - la_oenb[7] + NET la_oenb[7]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1285480 -1200 ) N ;
+   - la_oenb[8] + NET la_oenb[8]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1314040 -1200 ) N ;
+   - la_oenb[9] + NET la_oenb[9]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1342600 -1200 ) N ;
+   - la_data_in[0] + NET la_data_in[0]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1066520 -1200 ) N ;
+   - la_data_in[10] + NET la_data_in[10]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1352120 -1200 ) N ;
+   - la_data_in[11] + NET la_data_in[11]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1380680 -1200 ) N ;
+   - la_data_in[12] + NET la_data_in[12]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1409240 -1200 ) N ;
+   - la_data_in[13] + NET la_data_in[13]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1437800 -1200 ) N ;
+   - la_data_in[14] + NET la_data_in[14]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1466360 -1200 ) N ;
+   - la_data_in[1] + NET la_data_in[1]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1095080 -1200 ) N ;
+   - la_data_in[2] + NET la_data_in[2]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1123640 -1200 ) N ;
+   - la_data_in[3] + NET la_data_in[3]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1152200 -1200 ) N ;
+   - la_data_in[4] + NET la_data_in[4]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1180760 -1200 ) N ;
+   - la_data_in[5] + NET la_data_in[5]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1209320 -1200 ) N ;
+   - la_data_in[6] + NET la_data_in[6]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1237880 -1200 ) N ;
+   - la_data_in[7] + NET la_data_in[7]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1266440 -1200 ) N ;
+   - la_data_in[8] + NET la_data_in[8]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1295000 -1200 ) N ;
+   - la_data_in[9] + NET la_data_in[9]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1323560 -1200 ) N ;
+   - la_data_out[0] + NET la_data_out[0]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1076040 -1200 ) N ;
+   - la_data_out[10] + NET la_data_out[10]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1361640 -1200 ) N ;
+   - wbs_dat_o[22] + NET wbs_dat_o[22]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 799960 -1200 ) N ;
+   - wbs_dat_o[23] + NET wbs_dat_o[23]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 828520 -1200 ) N ;
+   - wbs_dat_o[24] + NET wbs_dat_o[24]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 857080 -1200 ) N ;
+   - wbs_dat_o[25] + NET wbs_dat_o[25]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 885640 -1200 ) N ;
+   - wbs_dat_o[26] + NET wbs_dat_o[26]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 914200 -1200 ) N ;
+   - wbs_dat_o[27] + NET wbs_dat_o[27]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 942760 -1200 ) N ;
+   - wbs_dat_o[28] + NET wbs_dat_o[28]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 971320 -1200 ) N ;
+   - wbs_dat_o[29] + NET wbs_dat_o[29]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 999880 -1200 ) N ;
+   - wbs_adr_i[22] + NET wbs_adr_i[22]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 780920 -1200 ) N ;
+   - wbs_dat_o[30] + NET wbs_dat_o[30]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1028440 -1200 ) N ;
+   - wbs_dat_o[31] + NET wbs_dat_o[31]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1057000 -1200 ) N ;
+   - wbs_adr_i[23] + NET wbs_adr_i[23]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 809480 -1200 ) N ;
+   - wbs_adr_i[24] + NET wbs_adr_i[24]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 838040 -1200 ) N ;
+   - wbs_adr_i[25] + NET wbs_adr_i[25]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 866600 -1200 ) N ;
+   - wbs_adr_i[26] + NET wbs_adr_i[26]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 895160 -1200 ) N ;
+   - wbs_adr_i[27] + NET wbs_adr_i[27]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 923720 -1200 ) N ;
+   - wbs_adr_i[28] + NET wbs_adr_i[28]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 952280 -1200 ) N ;
+   - wbs_adr_i[29] + NET wbs_adr_i[29]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 980840 -1200 ) N ;
+   - la_data_out[11] + NET la_data_out[11]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1390200 -1200 ) N ;
+   - wbs_adr_i[30] + NET wbs_adr_i[30]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1009400 -1200 ) N ;
+   - wbs_adr_i[31] + NET wbs_adr_i[31]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1037960 -1200 ) N ;
+   - la_data_out[12] + NET la_data_out[12]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1418760 -1200 ) N ;
+   - la_data_out[13] + NET la_data_out[13]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1447320 -1200 ) N ;
+   - la_data_out[14] + NET la_data_out[14]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1475880 -1200 ) N ;
+   - la_oenb[30] + NET la_oenb[30]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1942360 -1200 ) N ;
+   - la_oenb[31] + NET la_oenb[31]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1970920 -1200 ) N ;
+   - la_oenb[32] + NET la_oenb[32]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1999480 -1200 ) N ;
+   - la_oenb[33] + NET la_oenb[33]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2028040 -1200 ) N ;
+   - la_oenb[34] + NET la_oenb[34]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2056600 -1200 ) N ;
+   - la_oenb[35] + NET la_oenb[35]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2085160 -1200 ) N ;
+   - la_oenb[36] + NET la_oenb[36]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2113720 -1200 ) N ;
+   - la_oenb[37] + NET la_oenb[37]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2142280 -1200 ) N ;
+   - la_oenb[38] + NET la_oenb[38]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2170840 -1200 ) N ;
+   - la_oenb[39] + NET la_oenb[39]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2199400 -1200 ) N ;
+   - la_data_in[18] + NET la_data_in[18]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1580600 -1200 ) N ;
+   - la_data_in[19] + NET la_data_in[19]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1609160 -1200 ) N ;
+   - la_data_in[15] + NET la_data_in[15]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1494920 -1200 ) N ;
+   - la_data_in[20] + NET la_data_in[20]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1637720 -1200 ) N ;
+   - la_data_in[21] + NET la_data_in[21]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1666280 -1200 ) N ;
+   - la_data_in[22] + NET la_data_in[22]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1694840 -1200 ) N ;
+   - la_data_in[23] + NET la_data_in[23]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1723400 -1200 ) N ;
+   - la_data_in[24] + NET la_data_in[24]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1751960 -1200 ) N ;
+   - la_data_in[25] + NET la_data_in[25]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1780520 -1200 ) N ;
+   - la_data_in[26] + NET la_data_in[26]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1809080 -1200 ) N ;
+   - la_data_in[27] + NET la_data_in[27]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1837640 -1200 ) N ;
+   - la_data_in[28] + NET la_data_in[28]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1866200 -1200 ) N ;
+   - la_data_out[15] + NET la_data_out[15]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1504440 -1200 ) N ;
+   - la_data_out[16] + NET la_data_out[16]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1533000 -1200 ) N ;
+   - la_data_out[17] + NET la_data_out[17]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1561560 -1200 ) N ;
+   - la_data_out[18] + NET la_data_out[18]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1590120 -1200 ) N ;
+   - la_data_out[19] + NET la_data_out[19]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1618680 -1200 ) N ;
+   - la_data_in[29] + NET la_data_in[29]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1894760 -1200 ) N ;
+   - la_data_out[20] + NET la_data_out[20]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1647240 -1200 ) N ;
+   - la_data_out[21] + NET la_data_out[21]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1675800 -1200 ) N ;
+   - la_data_out[22] + NET la_data_out[22]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1704360 -1200 ) N ;
+   - la_data_out[23] + NET la_data_out[23]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1732920 -1200 ) N ;
+   - la_data_out[24] + NET la_data_out[24]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1761480 -1200 ) N ;
+   - la_data_out[25] + NET la_data_out[25]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1790040 -1200 ) N ;
+   - la_data_out[26] + NET la_data_out[26]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1818600 -1200 ) N ;
+   - la_data_out[27] + NET la_data_out[27]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1847160 -1200 ) N ;
+   - la_data_out[28] + NET la_data_out[28]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1875720 -1200 ) N ;
+   - la_data_out[29] + NET la_data_out[29]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1904280 -1200 ) N ;
+   - la_data_in[16] + NET la_data_in[16]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1523480 -1200 ) N ;
+   - la_data_out[30] + NET la_data_out[30]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1932840 -1200 ) N ;
+   - la_data_out[31] + NET la_data_out[31]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1961400 -1200 ) N ;
+   - la_data_out[32] + NET la_data_out[32]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1989960 -1200 ) N ;
+   - la_data_out[33] + NET la_data_out[33]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2018520 -1200 ) N ;
+   - la_data_out[34] + NET la_data_out[34]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2047080 -1200 ) N ;
+   - la_data_out[35] + NET la_data_out[35]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2075640 -1200 ) N ;
+   - la_data_out[36] + NET la_data_out[36]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2104200 -1200 ) N ;
+   - la_data_out[37] + NET la_data_out[37]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2132760 -1200 ) N ;
+   - la_data_out[38] + NET la_data_out[38]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2161320 -1200 ) N ;
+   - la_data_out[39] + NET la_data_out[39]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2189880 -1200 ) N ;
+   - la_data_in[30] + NET la_data_in[30]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1923320 -1200 ) N ;
+   - la_data_in[31] + NET la_data_in[31]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1951880 -1200 ) N ;
+   - la_data_in[32] + NET la_data_in[32]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1980440 -1200 ) N ;
+   - la_data_in[33] + NET la_data_in[33]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2009000 -1200 ) N ;
+   - la_data_in[34] + NET la_data_in[34]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2037560 -1200 ) N ;
+   - la_data_in[35] + NET la_data_in[35]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2066120 -1200 ) N ;
+   - la_data_in[36] + NET la_data_in[36]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2094680 -1200 ) N ;
+   - la_data_in[37] + NET la_data_in[37]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2123240 -1200 ) N ;
+   - la_data_in[38] + NET la_data_in[38]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2151800 -1200 ) N ;
+   - la_data_in[39] + NET la_data_in[39]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2180360 -1200 ) N ;
+   - la_data_in[17] + NET la_data_in[17]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1552040 -1200 ) N ;
+   - la_oenb[15] + NET la_oenb[15]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1513960 -1200 ) N ;
+   - la_oenb[16] + NET la_oenb[16]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1542520 -1200 ) N ;
+   - la_oenb[17] + NET la_oenb[17]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1571080 -1200 ) N ;
+   - la_oenb[18] + NET la_oenb[18]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1599640 -1200 ) N ;
+   - la_oenb[19] + NET la_oenb[19]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1628200 -1200 ) N ;
+   - la_oenb[20] + NET la_oenb[20]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1656760 -1200 ) N ;
+   - la_oenb[21] + NET la_oenb[21]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1685320 -1200 ) N ;
+   - la_oenb[22] + NET la_oenb[22]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1713880 -1200 ) N ;
+   - la_oenb[23] + NET la_oenb[23]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1742440 -1200 ) N ;
+   - la_oenb[24] + NET la_oenb[24]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1771000 -1200 ) N ;
+   - la_oenb[25] + NET la_oenb[25]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1799560 -1200 ) N ;
+   - la_oenb[26] + NET la_oenb[26]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1828120 -1200 ) N ;
+   - la_oenb[27] + NET la_oenb[27]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1856680 -1200 ) N ;
+   - la_oenb[28] + NET la_oenb[28]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1885240 -1200 ) N ;
+   - la_oenb[29] + NET la_oenb[29]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 1913800 -1200 ) N ;
+   - la_oenb[55] + NET la_oenb[55]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2656360 -1200 ) N ;
+   - la_oenb[56] + NET la_oenb[56]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2684920 -1200 ) N ;
+   - la_oenb[57] + NET la_oenb[57]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2713480 -1200 ) N ;
+   - la_oenb[58] + NET la_oenb[58]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2742040 -1200 ) N ;
+   - la_oenb[59] + NET la_oenb[59]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2770600 -1200 ) N ;
+   - la_data_in[46] + NET la_data_in[46]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2380280 -1200 ) N ;
+   - la_oenb[60] + NET la_oenb[60]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2799160 -1200 ) N ;
+   - la_oenb[61] + NET la_oenb[61]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2827720 -1200 ) N ;
+   - la_oenb[62] + NET la_oenb[62]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2856280 -1200 ) N ;
+   - la_oenb[63] + NET la_oenb[63]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2884840 -1200 ) N ;
+   - la_data_in[47] + NET la_data_in[47]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2408840 -1200 ) N ;
+   - la_data_in[48] + NET la_data_in[48]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2437400 -1200 ) N ;
+   - la_data_in[49] + NET la_data_in[49]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2465960 -1200 ) N ;
+   - la_data_in[44] + NET la_data_in[44]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2323160 -1200 ) N ;
+   - user_clock2 + NET user_clock2
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2894360 -1200 ) N ;
+   - user_irq[0] + NET user_irq[0]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2903880 -1200 ) N ;
+   - user_irq[1] + NET user_irq[1]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2913400 -1200 ) N ;
+   - user_irq[2] + NET user_irq[2]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2922920 -1200 ) N ;
+   - la_data_in[50] + NET la_data_in[50]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2494520 -1200 ) N ;
+   - la_data_in[51] + NET la_data_in[51]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2523080 -1200 ) N ;
+   - la_data_in[52] + NET la_data_in[52]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2551640 -1200 ) N ;
+   - la_data_in[53] + NET la_data_in[53]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2580200 -1200 ) N ;
+   - la_data_in[54] + NET la_data_in[54]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2608760 -1200 ) N ;
+   - la_data_out[40] + NET la_data_out[40]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2218440 -1200 ) N ;
+   - la_data_out[41] + NET la_data_out[41]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2247000 -1200 ) N ;
+   - la_data_out[42] + NET la_data_out[42]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2275560 -1200 ) N ;
+   - la_data_out[43] + NET la_data_out[43]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2304120 -1200 ) N ;
+   - la_data_out[44] + NET la_data_out[44]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2332680 -1200 ) N ;
+   - la_data_out[45] + NET la_data_out[45]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2361240 -1200 ) N ;
+   - la_data_out[46] + NET la_data_out[46]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2389800 -1200 ) N ;
+   - la_data_out[47] + NET la_data_out[47]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2418360 -1200 ) N ;
+   - la_data_out[48] + NET la_data_out[48]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2446920 -1200 ) N ;
+   - la_data_out[49] + NET la_data_out[49]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2475480 -1200 ) N ;
+   - la_data_in[55] + NET la_data_in[55]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2637320 -1200 ) N ;
+   - la_data_out[50] + NET la_data_out[50]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2504040 -1200 ) N ;
+   - la_data_out[51] + NET la_data_out[51]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2532600 -1200 ) N ;
+   - la_data_out[52] + NET la_data_out[52]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2561160 -1200 ) N ;
+   - la_data_out[53] + NET la_data_out[53]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2589720 -1200 ) N ;
+   - la_data_out[54] + NET la_data_out[54]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2618280 -1200 ) N ;
+   - la_data_out[55] + NET la_data_out[55]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2646840 -1200 ) N ;
+   - la_data_out[56] + NET la_data_out[56]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2675400 -1200 ) N ;
+   - la_data_out[57] + NET la_data_out[57]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2703960 -1200 ) N ;
+   - la_data_out[58] + NET la_data_out[58]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2732520 -1200 ) N ;
+   - la_data_out[59] + NET la_data_out[59]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2761080 -1200 ) N ;
+   - la_data_in[56] + NET la_data_in[56]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2665880 -1200 ) N ;
+   - la_data_out[60] + NET la_data_out[60]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2789640 -1200 ) N ;
+   - la_data_out[61] + NET la_data_out[61]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2818200 -1200 ) N ;
+   - la_data_out[62] + NET la_data_out[62]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2846760 -1200 ) N ;
+   - la_data_out[63] + NET la_data_out[63]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2875320 -1200 ) N ;
+   - la_data_in[57] + NET la_data_in[57]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2694440 -1200 ) N ;
+   - la_data_in[58] + NET la_data_in[58]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2723000 -1200 ) N ;
+   - la_data_in[59] + NET la_data_in[59]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2751560 -1200 ) N ;
+   - la_oenb[40] + NET la_oenb[40]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2227960 -1200 ) N ;
+   - la_data_in[60] + NET la_data_in[60]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2780120 -1200 ) N ;
+   - la_data_in[61] + NET la_data_in[61]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2808680 -1200 ) N ;
+   - la_data_in[62] + NET la_data_in[62]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2837240 -1200 ) N ;
+   - la_data_in[63] + NET la_data_in[63]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2865800 -1200 ) N ;
+   - la_data_in[40] + NET la_data_in[40]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2208920 -1200 ) N ;
+   - la_data_in[41] + NET la_data_in[41]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2237480 -1200 ) N ;
+   - la_oenb[41] + NET la_oenb[41]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2256520 -1200 ) N ;
+   - la_oenb[42] + NET la_oenb[42]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2285080 -1200 ) N ;
+   - la_oenb[43] + NET la_oenb[43]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2313640 -1200 ) N ;
+   - la_oenb[44] + NET la_oenb[44]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2342200 -1200 ) N ;
+   - la_oenb[45] + NET la_oenb[45]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2370760 -1200 ) N ;
+   - la_data_in[42] + NET la_data_in[42]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2266040 -1200 ) N ;
+   - la_oenb[46] + NET la_oenb[46]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2399320 -1200 ) N ;
+   - la_oenb[47] + NET la_oenb[47]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2427880 -1200 ) N ;
+   - la_oenb[48] + NET la_oenb[48]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2456440 -1200 ) N ;
+   - la_oenb[49] + NET la_oenb[49]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2485000 -1200 ) N ;
+   - la_data_in[45] + NET la_data_in[45]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2351720 -1200 ) N ;
+   - la_oenb[50] + NET la_oenb[50]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2513560 -1200 ) N ;
+   - la_oenb[51] + NET la_oenb[51]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2542120 -1200 ) N ;
+   - la_oenb[52] + NET la_oenb[52]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2570680 -1200 ) N ;
+   - la_oenb[53] + NET la_oenb[53]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2599240 -1200 ) N ;
+   - la_oenb[54] + NET la_oenb[54]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2627800 -1200 ) N ;
+   - la_data_in[43] + NET la_data_in[43]
+     + PORT
+        + LAYER Metal2 ( 0 0 ) ( 0 0 )        + PLACED ( 2294600 -1200 ) N ;
+   - vdd + NET vdd
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 20680 ) N ;
+   - vss + NET vss
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 50680 ) N ;
+   - io_in[0] + NET io_in[0]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 36120 ) N ;
+   - io_in[10] + NET io_in[10]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2018520 ) N ;
+   - io_in[11] + NET io_in[11]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2216760 ) N ;
+   - io_in[12] + NET io_in[12]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2415000 ) N ;
+   - io_in[13] + NET io_in[13]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2613240 ) N ;
+   - io_in[14] + NET io_in[14]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2811480 ) N ;
+   - io_in[1] + NET io_in[1]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 234360 ) N ;
+   - io_in[24] + NET io_in[24]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2936360 ) N ;
+   - io_in[25] + NET io_in[25]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2724680 ) N ;
+   - io_in[26] + NET io_in[26]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2513000 ) N ;
+   - io_in[27] + NET io_in[27]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2301320 ) N ;
+   - io_in[28] + NET io_in[28]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2089640 ) N ;
+   - io_in[29] + NET io_in[29]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1877960 ) N ;
+   - io_in[2] + NET io_in[2]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 432600 ) N ;
+   - io_in[30] + NET io_in[30]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1666280 ) N ;
+   - io_in[31] + NET io_in[31]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1454600 ) N ;
+   - io_in[32] + NET io_in[32]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1242920 ) N ;
+   - io_in[33] + NET io_in[33]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1031240 ) N ;
+   - io_in[34] + NET io_in[34]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 819560 ) N ;
+   - io_in[35] + NET io_in[35]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 607880 ) N ;
+   - io_in[36] + NET io_in[36]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 396200 ) N ;
+   - io_in[37] + NET io_in[37]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 184520 ) N ;
+   - io_in[3] + NET io_in[3]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 630840 ) N ;
+   - io_in[4] + NET io_in[4]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 829080 ) N ;
+   - io_in[5] + NET io_in[5]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1027320 ) N ;
+   - io_in[6] + NET io_in[6]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1225560 ) N ;
+   - io_in[7] + NET io_in[7]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1423800 ) N ;
+   - io_in[8] + NET io_in[8]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1622040 ) N ;
+   - io_in[9] + NET io_in[9]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1820280 ) N ;
+   - io_oeb[0] + NET io_oeb[0]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 168280 ) N ;
+   - io_oeb[10] + NET io_oeb[10]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2150680 ) N ;
+   - io_oeb[11] + NET io_oeb[11]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2348920 ) N ;
+   - io_oeb[12] + NET io_oeb[12]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2547160 ) N ;
+   - io_oeb[13] + NET io_oeb[13]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2745400 ) N ;
+   - io_oeb[14] + NET io_oeb[14]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2943640 ) N ;
+   - io_oeb[1] + NET io_oeb[1]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 366520 ) N ;
+   - io_oeb[24] + NET io_oeb[24]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2795240 ) N ;
+   - io_oeb[25] + NET io_oeb[25]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2583560 ) N ;
+   - io_oeb[26] + NET io_oeb[26]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2371880 ) N ;
+   - io_oeb[27] + NET io_oeb[27]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2160200 ) N ;
+   - io_oeb[28] + NET io_oeb[28]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1948520 ) N ;
+   - io_oeb[29] + NET io_oeb[29]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1736840 ) N ;
+   - io_oeb[2] + NET io_oeb[2]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 564760 ) N ;
+   - io_oeb[30] + NET io_oeb[30]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1525160 ) N ;
+   - io_oeb[31] + NET io_oeb[31]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1313480 ) N ;
+   - io_oeb[32] + NET io_oeb[32]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1101800 ) N ;
+   - io_oeb[33] + NET io_oeb[33]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 890120 ) N ;
+   - io_oeb[34] + NET io_oeb[34]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 678440 ) N ;
+   - io_oeb[35] + NET io_oeb[35]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 466760 ) N ;
+   - io_oeb[36] + NET io_oeb[36]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 255080 ) N ;
+   - io_oeb[37] + NET io_oeb[37]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 43400 ) N ;
+   - io_oeb[3] + NET io_oeb[3]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 763000 ) N ;
+   - io_oeb[4] + NET io_oeb[4]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 961240 ) N ;
+   - io_oeb[5] + NET io_oeb[5]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1159480 ) N ;
+   - io_oeb[6] + NET io_oeb[6]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1357720 ) N ;
+   - io_oeb[7] + NET io_oeb[7]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1555960 ) N ;
+   - io_oeb[8] + NET io_oeb[8]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1754200 ) N ;
+   - io_oeb[9] + NET io_oeb[9]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1952440 ) N ;
+   - io_out[0] + NET io_out[0]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 102200 ) N ;
+   - io_out[10] + NET io_out[10]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2084600 ) N ;
+   - io_out[11] + NET io_out[11]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2282840 ) N ;
+   - io_out[12] + NET io_out[12]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2481080 ) N ;
+   - io_out[13] + NET io_out[13]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2679320 ) N ;
+   - io_out[14] + NET io_out[14]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 2877560 ) N ;
+   - io_out[1] + NET io_out[1]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 300440 ) N ;
+   - io_out[24] + NET io_out[24]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2865800 ) N ;
+   - io_out[25] + NET io_out[25]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2654120 ) N ;
+   - io_out[26] + NET io_out[26]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2442440 ) N ;
+   - io_out[27] + NET io_out[27]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2230760 ) N ;
+   - io_out[28] + NET io_out[28]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 2019080 ) N ;
+   - io_out[29] + NET io_out[29]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1807400 ) N ;
+   - io_out[2] + NET io_out[2]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 498680 ) N ;
+   - io_out[30] + NET io_out[30]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1595720 ) N ;
+   - io_out[31] + NET io_out[31]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1384040 ) N ;
+   - io_out[32] + NET io_out[32]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 1172360 ) N ;
+   - io_out[33] + NET io_out[33]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 960680 ) N ;
+   - io_out[34] + NET io_out[34]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 749000 ) N ;
+   - io_out[35] + NET io_out[35]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 537320 ) N ;
+   - io_out[36] + NET io_out[36]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 325640 ) N ;
+   - io_out[37] + NET io_out[37]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( -1200 113960 ) N ;
+   - io_out[3] + NET io_out[3]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 696920 ) N ;
+   - io_out[4] + NET io_out[4]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 895160 ) N ;
+   - io_out[5] + NET io_out[5]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1093400 ) N ;
+   - io_out[6] + NET io_out[6]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1291640 ) N ;
+   - io_out[7] + NET io_out[7]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1489880 ) N ;
+   - io_out[8] + NET io_out[8]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1688120 ) N ;
+   - io_out[9] + NET io_out[9]
+     + PORT
+        + LAYER Metal3 ( 0 0 ) ( 0 0 )        + PLACED ( 2981400 1886360 ) N ;
+   - vdd + NET vdd
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 20680 ) N ;
+   - vss + NET vss
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 50680 ) N ;
+   - vdd_uq0 + NET vdd_uq0
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 -1870 ) N ;
+   - vdd_uq0 + NET vdd_uq0
+     + PORT
+        + LAYER Metal5 ( -1494940 -1550 ) ( 1494940 1550 )        + PLACED ( 1490160 -1870 ) N ;
+   - vdd_uq1 + NET vdd_uq1
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 110680 ) N ;
+   - vdd_uq1 + NET vdd_uq1
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 110680 ) N ;
+   - vdd_uq2 + NET vdd_uq2
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 200680 ) N ;
+   - vdd_uq2 + NET vdd_uq2
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 200680 ) N ;
+   - vdd_uq3 + NET vdd_uq3
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 290680 ) N ;
+   - vdd_uq3 + NET vdd_uq3
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 290680 ) N ;
+   - vdd_uq4 + NET vdd_uq4
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 380680 ) N ;
+   - vdd_uq4 + NET vdd_uq4
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 380680 ) N ;
+   - vdd_uq5 + NET vdd_uq5
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 470680 ) N ;
+   - vdd_uq5 + NET vdd_uq5
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 470680 ) N ;
+   - vdd_uq6 + NET vdd_uq6
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 560680 ) N ;
+   - vdd_uq6 + NET vdd_uq6
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 560680 ) N ;
+   - vdd_uq7 + NET vdd_uq7
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 650680 ) N ;
+   - vdd_uq7 + NET vdd_uq7
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 650680 ) N ;
+   - vdd_uq8 + NET vdd_uq8
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 740680 ) N ;
+   - vdd_uq8 + NET vdd_uq8
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 740680 ) N ;
+   - vdd_uq9 + NET vdd_uq9
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 830680 ) N ;
+   - vdd_uq9 + NET vdd_uq9
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 830680 ) N ;
+   - vdd_uq10 + NET vdd_uq10
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 920680 ) N ;
+   - vdd_uq10 + NET vdd_uq10
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 920680 ) N ;
+   - vdd_uq11 + NET vdd_uq11
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1010680 ) N ;
+   - vdd_uq11 + NET vdd_uq11
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1010680 ) N ;
+   - vdd_uq12 + NET vdd_uq12
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1100680 ) N ;
+   - vdd_uq12 + NET vdd_uq12
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1100680 ) N ;
+   - vdd_uq13 + NET vdd_uq13
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1190680 ) N ;
+   - vdd_uq13 + NET vdd_uq13
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1190680 ) N ;
+   - vdd_uq14 + NET vdd_uq14
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1280680 ) N ;
+   - vdd_uq14 + NET vdd_uq14
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1280680 ) N ;
+   - vdd_uq15 + NET vdd_uq15
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1370680 ) N ;
+   - vdd_uq15 + NET vdd_uq15
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1370680 ) N ;
+   - vdd_uq16 + NET vdd_uq16
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1460680 ) N ;
+   - vdd_uq16 + NET vdd_uq16
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1460680 ) N ;
+   - vdd_uq17 + NET vdd_uq17
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1550680 ) N ;
+   - vdd_uq17 + NET vdd_uq17
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1550680 ) N ;
+   - vdd_uq18 + NET vdd_uq18
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1640680 ) N ;
+   - vdd_uq18 + NET vdd_uq18
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1640680 ) N ;
+   - vdd_uq19 + NET vdd_uq19
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1730680 ) N ;
+   - vdd_uq19 + NET vdd_uq19
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1730680 ) N ;
+   - vdd_uq20 + NET vdd_uq20
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1820680 ) N ;
+   - vdd_uq20 + NET vdd_uq20
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1820680 ) N ;
+   - vdd_uq21 + NET vdd_uq21
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1910680 ) N ;
+   - vdd_uq21 + NET vdd_uq21
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1910680 ) N ;
+   - vdd_uq22 + NET vdd_uq22
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2000680 ) N ;
+   - vdd_uq22 + NET vdd_uq22
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2000680 ) N ;
+   - vdd_uq23 + NET vdd_uq23
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2090680 ) N ;
+   - vdd_uq23 + NET vdd_uq23
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2090680 ) N ;
+   - vdd_uq24 + NET vdd_uq24
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2180680 ) N ;
+   - vdd_uq24 + NET vdd_uq24
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2180680 ) N ;
+   - vdd_uq25 + NET vdd_uq25
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2270680 ) N ;
+   - vdd_uq25 + NET vdd_uq25
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2270680 ) N ;
+   - vdd_uq26 + NET vdd_uq26
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2360680 ) N ;
+   - vdd_uq26 + NET vdd_uq26
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2360680 ) N ;
+   - vdd_uq27 + NET vdd_uq27
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2450680 ) N ;
+   - vdd_uq27 + NET vdd_uq27
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2450680 ) N ;
+   - vdd_uq28 + NET vdd_uq28
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2540680 ) N ;
+   - vdd_uq28 + NET vdd_uq28
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2540680 ) N ;
+   - vdd_uq29 + NET vdd_uq29
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2630680 ) N ;
+   - vdd_uq29 + NET vdd_uq29
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2630680 ) N ;
+   - vdd_uq30 + NET vdd_uq30
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2720680 ) N ;
+   - vdd_uq30 + NET vdd_uq30
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2720680 ) N ;
+   - vdd_uq31 + NET vdd_uq31
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2810680 ) N ;
+   - vdd_uq31 + NET vdd_uq31
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2810680 ) N ;
+   - vdd_uq32 + NET vdd_uq32
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2900680 ) N ;
+   - vdd_uq32 + NET vdd_uq32
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2900680 ) N ;
+   - vdd_uq33 + NET vdd_uq33
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2984990 ) N ;
+   - vdd_uq33 + NET vdd_uq33
+     + PORT
+        + LAYER Metal5 ( -1494940 -1550 ) ( 1494940 1550 )        + PLACED ( 1490160 2984990 ) N ;
+   - vdd_uq34 + NET vdd_uq34
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2983550 1491560 ) N ;
+   - vdd_uq34 + NET vdd_uq34
+     + PORT
+        + LAYER Metal4 ( -1550 -1494980 ) ( 1550 1494980 )        + PLACED ( 2983550 1491560 ) N ;
+   - vdd_uq35 + NET vdd_uq35
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2897320 1491560 ) N ;
+   - vdd_uq35 + NET vdd_uq35
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2897320 1491560 ) N ;
+   - vdd_uq36 + NET vdd_uq36
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2807320 1491560 ) N ;
+   - vdd_uq36 + NET vdd_uq36
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2807320 1491560 ) N ;
+   - vdd_uq37 + NET vdd_uq37
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2717320 1491560 ) N ;
+   - vdd_uq37 + NET vdd_uq37
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2717320 1491560 ) N ;
+   - vdd_uq38 + NET vdd_uq38
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2627320 1491560 ) N ;
+   - vdd_uq38 + NET vdd_uq38
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2627320 1491560 ) N ;
+   - vdd_uq39 + NET vdd_uq39
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2537320 1491560 ) N ;
+   - vdd_uq39 + NET vdd_uq39
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2537320 1491560 ) N ;
+   - vdd_uq40 + NET vdd_uq40
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2447320 1491560 ) N ;
+   - vdd_uq40 + NET vdd_uq40
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2447320 1491560 ) N ;
+   - vdd_uq41 + NET vdd_uq41
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2357320 1491560 ) N ;
+   - vdd_uq41 + NET vdd_uq41
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2357320 1491560 ) N ;
+   - vdd_uq42 + NET vdd_uq42
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2267320 1491560 ) N ;
+   - vdd_uq42 + NET vdd_uq42
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2267320 1491560 ) N ;
+   - vdd_uq43 + NET vdd_uq43
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2177320 1491560 ) N ;
+   - vdd_uq43 + NET vdd_uq43
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2177320 1491560 ) N ;
+   - vdd_uq44 + NET vdd_uq44
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2087320 1491560 ) N ;
+   - vdd_uq44 + NET vdd_uq44
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2087320 1491560 ) N ;
+   - vdd_uq45 + NET vdd_uq45
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1997320 1491560 ) N ;
+   - vdd_uq45 + NET vdd_uq45
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1997320 1491560 ) N ;
+   - vdd_uq46 + NET vdd_uq46
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1907320 1491560 ) N ;
+   - vdd_uq46 + NET vdd_uq46
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1907320 1491560 ) N ;
+   - vdd_uq47 + NET vdd_uq47
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1817320 1491560 ) N ;
+   - vdd_uq47 + NET vdd_uq47
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1817320 1491560 ) N ;
+   - vdd_uq48 + NET vdd_uq48
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1727320 1491560 ) N ;
+   - vdd_uq48 + NET vdd_uq48
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1727320 1491560 ) N ;
+   - vdd_uq49 + NET vdd_uq49
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1637320 1491560 ) N ;
+   - vdd_uq49 + NET vdd_uq49
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1637320 1491560 ) N ;
+   - vdd_uq50 + NET vdd_uq50
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1547320 1491560 ) N ;
+   - vdd_uq50 + NET vdd_uq50
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1547320 1491560 ) N ;
+   - vdd_uq51 + NET vdd_uq51
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1457320 420940 ) N ;
+   - vdd_uq51 + NET vdd_uq51
+     + PORT
+        + LAYER Metal4 ( -1550 -429160 ) ( 1550 429160 )        + PLACED ( 1457320 420940 ) N ;
+   - vdd_uq52 + NET vdd_uq52
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1457320 2215500 ) N ;
+   - vdd_uq52 + NET vdd_uq52
+     + PORT
+        + LAYER Metal4 ( -1550 -775840 ) ( 1550 775840 )        + PLACED ( 1457320 2215500 ) N ;
+   - vdd_uq53 + NET vdd_uq53
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1367320 1491560 ) N ;
+   - vdd_uq53 + NET vdd_uq53
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1367320 1491560 ) N ;
+   - vdd_uq54 + NET vdd_uq54
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1277320 420575 ) N ;
+   - vdd_uq54 + NET vdd_uq54
+     + PORT
+        + LAYER Metal4 ( -1550 -428795 ) ( 1550 428795 )        + PLACED ( 1277320 420575 ) N ;
+   - vdd_uq55 + NET vdd_uq55
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1187320 420575 ) N ;
+   - vdd_uq55 + NET vdd_uq55
+     + PORT
+        + LAYER Metal4 ( -1550 -428795 ) ( 1550 428795 )        + PLACED ( 1187320 420575 ) N ;
+   - vdd_uq56 + NET vdd_uq56
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1097320 420575 ) N ;
+   - vdd_uq56 + NET vdd_uq56
+     + PORT
+        + LAYER Metal4 ( -1550 -428795 ) ( 1550 428795 )        + PLACED ( 1097320 420575 ) N ;
+   - vdd_uq57 + NET vdd_uq57
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1007320 420575 ) N ;
+   - vdd_uq57 + NET vdd_uq57
+     + PORT
+        + LAYER Metal4 ( -1550 -428795 ) ( 1550 428795 )        + PLACED ( 1007320 420575 ) N ;
+   - vdd_uq58 + NET vdd_uq58
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 917320 420575 ) N ;
+   - vdd_uq58 + NET vdd_uq58
+     + PORT
+        + LAYER Metal4 ( -1550 -428795 ) ( 1550 428795 )        + PLACED ( 917320 420575 ) N ;
+   - vdd_uq59 + NET vdd_uq59
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1277320 2213905 ) N ;
+   - vdd_uq59 + NET vdd_uq59
+     + PORT
+        + LAYER Metal4 ( -1550 -777435 ) ( 1550 777435 )        + PLACED ( 1277320 2213905 ) N ;
+   - vdd_uq60 + NET vdd_uq60
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1187320 2213905 ) N ;
+   - vdd_uq60 + NET vdd_uq60
+     + PORT
+        + LAYER Metal4 ( -1550 -777435 ) ( 1550 777435 )        + PLACED ( 1187320 2213905 ) N ;
+   - vdd_uq61 + NET vdd_uq61
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1097320 2213905 ) N ;
+   - vdd_uq61 + NET vdd_uq61
+     + PORT
+        + LAYER Metal4 ( -1550 -777435 ) ( 1550 777435 )        + PLACED ( 1097320 2213905 ) N ;
+   - vdd_uq62 + NET vdd_uq62
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1007320 2213905 ) N ;
+   - vdd_uq62 + NET vdd_uq62
+     + PORT
+        + LAYER Metal4 ( -1550 -777435 ) ( 1550 777435 )        + PLACED ( 1007320 2213905 ) N ;
+   - vdd_uq63 + NET vdd_uq63
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 917320 2215500 ) N ;
+   - vdd_uq63 + NET vdd_uq63
+     + PORT
+        + LAYER Metal4 ( -1550 -775840 ) ( 1550 775840 )        + PLACED ( 917320 2215500 ) N ;
+   - vdd_uq64 + NET vdd_uq64
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 827320 1491560 ) N ;
+   - vdd_uq64 + NET vdd_uq64
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 827320 1491560 ) N ;
+   - vdd_uq65 + NET vdd_uq65
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 737320 1491560 ) N ;
+   - vdd_uq65 + NET vdd_uq65
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 737320 1491560 ) N ;
+   - vdd_uq66 + NET vdd_uq66
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 647320 1491560 ) N ;
+   - vdd_uq66 + NET vdd_uq66
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 647320 1491560 ) N ;
+   - vdd_uq67 + NET vdd_uq67
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 557320 1491560 ) N ;
+   - vdd_uq67 + NET vdd_uq67
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 557320 1491560 ) N ;
+   - vdd_uq68 + NET vdd_uq68
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 467320 1491560 ) N ;
+   - vdd_uq68 + NET vdd_uq68
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 467320 1491560 ) N ;
+   - vdd_uq69 + NET vdd_uq69
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 377320 1491560 ) N ;
+   - vdd_uq69 + NET vdd_uq69
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 377320 1491560 ) N ;
+   - vdd_uq70 + NET vdd_uq70
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 287320 1491560 ) N ;
+   - vdd_uq70 + NET vdd_uq70
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 287320 1491560 ) N ;
+   - vdd_uq71 + NET vdd_uq71
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 197320 1491560 ) N ;
+   - vdd_uq71 + NET vdd_uq71
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 197320 1491560 ) N ;
+   - vdd_uq72 + NET vdd_uq72
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 107320 1491560 ) N ;
+   - vdd_uq72 + NET vdd_uq72
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 107320 1491560 ) N ;
+   - vdd_uq73 + NET vdd_uq73
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 17320 1491560 ) N ;
+   - vdd_uq73 + NET vdd_uq73
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 17320 1491560 ) N ;
+   - vdd_uq74 + NET vdd_uq74
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( -3230 1491560 ) N ;
+   - vdd_uq74 + NET vdd_uq74
+     + PORT
+        + LAYER Metal4 ( -1550 -1494980 ) ( 1550 1494980 )        + PLACED ( -3230 1491560 ) N ;
+   - vss_uq0 + NET vss_uq0
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 -6670 ) N ;
+   - vss_uq0 + NET vss_uq0
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 -6670 ) N ;
+   - vss_uq1 + NET vss_uq1
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 140680 ) N ;
+   - vss_uq1 + NET vss_uq1
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 140680 ) N ;
+   - vss_uq2 + NET vss_uq2
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 230680 ) N ;
+   - vss_uq2 + NET vss_uq2
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 230680 ) N ;
+   - vss_uq3 + NET vss_uq3
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 320680 ) N ;
+   - vss_uq3 + NET vss_uq3
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 320680 ) N ;
+   - vss_uq4 + NET vss_uq4
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 410680 ) N ;
+   - vss_uq4 + NET vss_uq4
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 410680 ) N ;
+   - vss_uq5 + NET vss_uq5
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 500680 ) N ;
+   - vss_uq5 + NET vss_uq5
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 500680 ) N ;
+   - vss_uq6 + NET vss_uq6
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 590680 ) N ;
+   - vss_uq6 + NET vss_uq6
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 590680 ) N ;
+   - vss_uq7 + NET vss_uq7
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 680680 ) N ;
+   - vss_uq7 + NET vss_uq7
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 680680 ) N ;
+   - vss_uq8 + NET vss_uq8
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 770680 ) N ;
+   - vss_uq8 + NET vss_uq8
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 770680 ) N ;
+   - vss_uq9 + NET vss_uq9
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 860680 ) N ;
+   - vss_uq9 + NET vss_uq9
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 860680 ) N ;
+   - vss_uq10 + NET vss_uq10
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 950680 ) N ;
+   - vss_uq10 + NET vss_uq10
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 950680 ) N ;
+   - vss_uq11 + NET vss_uq11
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1040680 ) N ;
+   - vss_uq11 + NET vss_uq11
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1040680 ) N ;
+   - vss_uq12 + NET vss_uq12
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1130680 ) N ;
+   - vss_uq12 + NET vss_uq12
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1130680 ) N ;
+   - vss_uq13 + NET vss_uq13
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1220680 ) N ;
+   - vss_uq13 + NET vss_uq13
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1220680 ) N ;
+   - vss_uq14 + NET vss_uq14
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1310680 ) N ;
+   - vss_uq14 + NET vss_uq14
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1310680 ) N ;
+   - vss_uq15 + NET vss_uq15
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1400680 ) N ;
+   - vss_uq15 + NET vss_uq15
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1400680 ) N ;
+   - vss_uq16 + NET vss_uq16
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1490680 ) N ;
+   - vss_uq16 + NET vss_uq16
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1490680 ) N ;
+   - vss_uq17 + NET vss_uq17
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1580680 ) N ;
+   - vss_uq17 + NET vss_uq17
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1580680 ) N ;
+   - vss_uq18 + NET vss_uq18
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1670680 ) N ;
+   - vss_uq18 + NET vss_uq18
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1670680 ) N ;
+   - vss_uq19 + NET vss_uq19
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1760680 ) N ;
+   - vss_uq19 + NET vss_uq19
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1760680 ) N ;
+   - vss_uq20 + NET vss_uq20
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1850680 ) N ;
+   - vss_uq20 + NET vss_uq20
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1850680 ) N ;
+   - vss_uq21 + NET vss_uq21
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 1940680 ) N ;
+   - vss_uq21 + NET vss_uq21
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 1940680 ) N ;
+   - vss_uq22 + NET vss_uq22
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2030680 ) N ;
+   - vss_uq22 + NET vss_uq22
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2030680 ) N ;
+   - vss_uq23 + NET vss_uq23
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2120680 ) N ;
+   - vss_uq23 + NET vss_uq23
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2120680 ) N ;
+   - vss_uq24 + NET vss_uq24
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2210680 ) N ;
+   - vss_uq24 + NET vss_uq24
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2210680 ) N ;
+   - vss_uq25 + NET vss_uq25
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2300680 ) N ;
+   - vss_uq25 + NET vss_uq25
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2300680 ) N ;
+   - vss_uq26 + NET vss_uq26
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2390680 ) N ;
+   - vss_uq26 + NET vss_uq26
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2390680 ) N ;
+   - vss_uq27 + NET vss_uq27
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2480680 ) N ;
+   - vss_uq27 + NET vss_uq27
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2480680 ) N ;
+   - vss_uq28 + NET vss_uq28
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2570680 ) N ;
+   - vss_uq28 + NET vss_uq28
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2570680 ) N ;
+   - vss_uq29 + NET vss_uq29
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2660680 ) N ;
+   - vss_uq29 + NET vss_uq29
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2660680 ) N ;
+   - vss_uq30 + NET vss_uq30
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2750680 ) N ;
+   - vss_uq30 + NET vss_uq30
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2750680 ) N ;
+   - vss_uq31 + NET vss_uq31
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2840680 ) N ;
+   - vss_uq31 + NET vss_uq31
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2840680 ) N ;
+   - vss_uq32 + NET vss_uq32
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2930680 ) N ;
+   - vss_uq32 + NET vss_uq32
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2930680 ) N ;
+   - vss_uq33 + NET vss_uq33
+     + PORT
+        + LAYER Metal5 ( 0 0 ) ( 0 0 )        + PLACED ( 1490160 2989790 ) N ;
+   - vss_uq33 + NET vss_uq33
+     + PORT
+        + LAYER Metal5 ( -1499740 -1550 ) ( 1499740 1550 )        + PLACED ( 1490160 2989790 ) N ;
+   - vss_uq34 + NET vss_uq34
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2988350 1491560 ) N ;
+   - vss_uq34 + NET vss_uq34
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2988350 1491560 ) N ;
+   - vss_uq35 + NET vss_uq35
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2915920 1491560 ) N ;
+   - vss_uq35 + NET vss_uq35
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2915920 1491560 ) N ;
+   - vss_uq36 + NET vss_uq36
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2825920 1491560 ) N ;
+   - vss_uq36 + NET vss_uq36
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2825920 1491560 ) N ;
+   - vss_uq37 + NET vss_uq37
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2735920 1491560 ) N ;
+   - vss_uq37 + NET vss_uq37
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2735920 1491560 ) N ;
+   - vss_uq38 + NET vss_uq38
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2645920 1491560 ) N ;
+   - vss_uq38 + NET vss_uq38
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2645920 1491560 ) N ;
+   - vss_uq39 + NET vss_uq39
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2555920 1491560 ) N ;
+   - vss_uq39 + NET vss_uq39
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2555920 1491560 ) N ;
+   - vss_uq40 + NET vss_uq40
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2465920 1491560 ) N ;
+   - vss_uq40 + NET vss_uq40
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2465920 1491560 ) N ;
+   - vss_uq41 + NET vss_uq41
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2375920 1491560 ) N ;
+   - vss_uq41 + NET vss_uq41
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2375920 1491560 ) N ;
+   - vss_uq42 + NET vss_uq42
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2285920 1491560 ) N ;
+   - vss_uq42 + NET vss_uq42
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2285920 1491560 ) N ;
+   - vss_uq43 + NET vss_uq43
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2195920 1491560 ) N ;
+   - vss_uq43 + NET vss_uq43
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2195920 1491560 ) N ;
+   - vss_uq44 + NET vss_uq44
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2105920 1491560 ) N ;
+   - vss_uq44 + NET vss_uq44
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2105920 1491560 ) N ;
+   - vss_uq45 + NET vss_uq45
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 2015920 1491560 ) N ;
+   - vss_uq45 + NET vss_uq45
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 2015920 1491560 ) N ;
+   - vss_uq46 + NET vss_uq46
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1925920 1491560 ) N ;
+   - vss_uq46 + NET vss_uq46
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1925920 1491560 ) N ;
+   - vss_uq47 + NET vss_uq47
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1835920 1491560 ) N ;
+   - vss_uq47 + NET vss_uq47
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1835920 1491560 ) N ;
+   - vss_uq48 + NET vss_uq48
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1745920 1491560 ) N ;
+   - vss_uq48 + NET vss_uq48
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1745920 1491560 ) N ;
+   - vss_uq49 + NET vss_uq49
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1655920 1491560 ) N ;
+   - vss_uq49 + NET vss_uq49
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1655920 1491560 ) N ;
+   - vss_uq50 + NET vss_uq50
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1565920 1491560 ) N ;
+   - vss_uq50 + NET vss_uq50
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1565920 1491560 ) N ;
+   - vss_uq51 + NET vss_uq51
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1475920 1491560 ) N ;
+   - vss_uq51 + NET vss_uq51
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1475920 1491560 ) N ;
+   - vss_uq52 + NET vss_uq52
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1385920 1491560 ) N ;
+   - vss_uq52 + NET vss_uq52
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 1385920 1491560 ) N ;
+   - vss_uq53 + NET vss_uq53
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1295920 420575 ) N ;
+   - vss_uq53 + NET vss_uq53
+     + PORT
+        + LAYER Metal4 ( -1550 -428795 ) ( 1550 428795 )        + PLACED ( 1295920 420575 ) N ;
+   - vss_uq54 + NET vss_uq54
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1205920 420575 ) N ;
+   - vss_uq54 + NET vss_uq54
+     + PORT
+        + LAYER Metal4 ( -1550 -428795 ) ( 1550 428795 )        + PLACED ( 1205920 420575 ) N ;
+   - vss_uq55 + NET vss_uq55
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1115920 420575 ) N ;
+   - vss_uq55 + NET vss_uq55
+     + PORT
+        + LAYER Metal4 ( -1550 -428795 ) ( 1550 428795 )        + PLACED ( 1115920 420575 ) N ;
+   - vss_uq56 + NET vss_uq56
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1025920 420575 ) N ;
+   - vss_uq56 + NET vss_uq56
+     + PORT
+        + LAYER Metal4 ( -1550 -428795 ) ( 1550 428795 )        + PLACED ( 1025920 420575 ) N ;
+   - vss_uq57 + NET vss_uq57
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 935920 420575 ) N ;
+   - vss_uq57 + NET vss_uq57
+     + PORT
+        + LAYER Metal4 ( -1550 -428795 ) ( 1550 428795 )        + PLACED ( 935920 420575 ) N ;
+   - vss_uq58 + NET vss_uq58
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1295920 2213905 ) N ;
+   - vss_uq58 + NET vss_uq58
+     + PORT
+        + LAYER Metal4 ( -1550 -777435 ) ( 1550 777435 )        + PLACED ( 1295920 2213905 ) N ;
+   - vss_uq59 + NET vss_uq59
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1205920 2213905 ) N ;
+   - vss_uq59 + NET vss_uq59
+     + PORT
+        + LAYER Metal4 ( -1550 -777435 ) ( 1550 777435 )        + PLACED ( 1205920 2213905 ) N ;
+   - vss_uq60 + NET vss_uq60
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1115920 2213905 ) N ;
+   - vss_uq60 + NET vss_uq60
+     + PORT
+        + LAYER Metal4 ( -1550 -777435 ) ( 1550 777435 )        + PLACED ( 1115920 2213905 ) N ;
+   - vss_uq61 + NET vss_uq61
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 1025920 2213905 ) N ;
+   - vss_uq61 + NET vss_uq61
+     + PORT
+        + LAYER Metal4 ( -1550 -777435 ) ( 1550 777435 )        + PLACED ( 1025920 2213905 ) N ;
+   - vss_uq62 + NET vss_uq62
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 935920 2213905 ) N ;
+   - vss_uq62 + NET vss_uq62
+     + PORT
+        + LAYER Metal4 ( -1550 -777435 ) ( 1550 777435 )        + PLACED ( 935920 2213905 ) N ;
+   - vss_uq63 + NET vss_uq63
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 845920 1491560 ) N ;
+   - vss_uq63 + NET vss_uq63
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 845920 1491560 ) N ;
+   - vss_uq64 + NET vss_uq64
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 755920 1491560 ) N ;
+   - vss_uq64 + NET vss_uq64
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 755920 1491560 ) N ;
+   - vss_uq65 + NET vss_uq65
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 665920 1491560 ) N ;
+   - vss_uq65 + NET vss_uq65
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 665920 1491560 ) N ;
+   - vss_uq66 + NET vss_uq66
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 575920 1491560 ) N ;
+   - vss_uq66 + NET vss_uq66
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 575920 1491560 ) N ;
+   - vss_uq67 + NET vss_uq67
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 485920 1491560 ) N ;
+   - vss_uq67 + NET vss_uq67
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 485920 1491560 ) N ;
+   - vss_uq68 + NET vss_uq68
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 395920 1491560 ) N ;
+   - vss_uq68 + NET vss_uq68
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 395920 1491560 ) N ;
+   - vss_uq69 + NET vss_uq69
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 305920 1491560 ) N ;
+   - vss_uq69 + NET vss_uq69
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 305920 1491560 ) N ;
+   - vss_uq70 + NET vss_uq70
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 215920 1491560 ) N ;
+   - vss_uq70 + NET vss_uq70
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 215920 1491560 ) N ;
+   - vss_uq71 + NET vss_uq71
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 125920 1491560 ) N ;
+   - vss_uq71 + NET vss_uq71
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 125920 1491560 ) N ;
+   - vss_uq72 + NET vss_uq72
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( 35920 1491560 ) N ;
+   - vss_uq72 + NET vss_uq72
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( 35920 1491560 ) N ;
+   - vss_uq73 + NET vss_uq73
+     + PORT
+        + LAYER Metal4 ( 0 0 ) ( 0 0 )        + PLACED ( -8030 1491560 ) N ;
+   - vss_uq73 + NET vss_uq73
+     + PORT
+        + LAYER Metal4 ( -1550 -1499780 ) ( 1550 1499780 )        + PLACED ( -8030 1491560 ) N ;
+END PINS
+END DESIGN
+
