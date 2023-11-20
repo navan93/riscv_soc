@@ -7,3 +7,10 @@
 *.vcd
 *.gtkw
 *.nl.v
+gds/*.gds
+/env
+/venv
+/caravel
+/dependencies
+/mgmt_core_wrapper
+/logs
