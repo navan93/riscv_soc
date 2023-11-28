@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 5
-timestamp 1697547714
+timestamp 1700709460
 << obsm1 >>
 rect 6672 2355 285328 175578
 << metal2 >>
@@ -2070,7 +2070,7 @@ string FIXED_BBOX 0 0 298020 298020
 string LEFclass BLOCK
 string LEFview TRUE
 string GDS_END 18168048
-string GDS_FILE /home/passant/efabless/gf180_upw/openlane/user_project_wrapper/runs/23_10_17_16_00/results/signoff/user_project_wrapper.magic.gds
+string GDS_FILE /home/navaneeth/Projects/openmpw/riscv_soc/openlane/user_project_wrapper/runs/23_11_23_08_45/results/signoff/user_project_wrapper.magic.gds
 string GDS_START 15914530
 << end >>
 
