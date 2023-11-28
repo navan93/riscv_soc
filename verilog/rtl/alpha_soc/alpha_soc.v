@@ -19,6 +19,10 @@
 //------------------------------------------------------------------------------
 
 module alpha_soc (
+`ifdef USE_POWER_PINS
+    inout vdd,	// User area 1 1.8V supply
+    inout vss,	// User area 1 digital ground
+`endif
     input  wire   [9:0] io_in,
     output  wire   [9:0] io_oeb,
     output  wire   [9:0] io_out,
