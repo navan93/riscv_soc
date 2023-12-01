@@ -23,9 +23,9 @@ module alpha_soc (
     inout vdd,	// User area 1 1.8V supply
     inout vss,	// User area 1 digital ground
 `endif
-    input  wire   [9:0] io_in,
-    output  wire   [9:0] io_oeb,
-    output  wire   [9:0] io_out,
+    input  wire   [37:0] io_in,
+    output  wire   [37:0] io_oeb,
+    output  wire   [37:0] io_out,
     output wire    [2:0] user_irq,
     input  wire          wb_clk_i,
     input  wire          wb_rst_i,
@@ -36,7 +36,8 @@ module alpha_soc (
     output wire   [31:0] wbs_dat_o,
     input  wire    [3:0] wbs_sel_i,
     input  wire          wbs_stb_i,
-    input  wire          wbs_we_i
+    input  wire          wbs_we_i,
+    output wire [63:0] la_data_out
 );
 
 
@@ -3450,7 +3451,9 @@ assign spi_miso = io_in[9];
 assign io_oeb[9] = 1'b1;
 assign io_out[9] = 1'b0;
 
-
+assign la_data_out = 0;
+assign io_oeb[37:10] = 0;
+assign io_out[37:10] = 0;
 
 endmodule
 

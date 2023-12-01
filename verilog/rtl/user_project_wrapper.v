@@ -70,8 +70,6 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-assign la_data_out = 0;
-
 alpha_soc mprj (
 `ifdef USE_POWER_PINS
 	.vdd(vdd),	// User area 1 1.8V power
@@ -93,13 +91,13 @@ alpha_soc mprj (
 
     // Logic Analyzer
     // .la_data_in (la_data_in),
-    // .la_data_out(la_data_out),
+    .la_data_out(la_data_out),
     // .la_oenb    (la_oenb),
 
     // IO Pads
-    .io_in      ({io_in[37:30],io_in[7:0]}),
-    .io_out     ({io_out[37:30],io_out[7:0]}),
-    .io_oeb     ({io_oeb[37:30],io_oeb[7:0]}),
+    .io_in      (io_in),
+    .io_out     (io_out),
+    .io_oeb     (io_oeb),
 
     // IRQ
     .user_irq   (user_irq)

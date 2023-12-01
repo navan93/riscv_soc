@@ -1,0 +1,47 @@
+{
+	"PDK": "gf180mcuD",
+	"STD_CELL_LIBRARY": "gf180mcu_fd_sc_mcu7t5v0",
+	"DESIGN_NAME": "alpha_soc",
+	"VERILOG_FILES": [
+		"dir::../../verilog/rtl/defines.v",
+		"dir::../../verilog/rtl/alpha_soc/alpha_soc.v",
+		"dir::../../verilog/rtl/alpha_soc/VexRiscv_Min.v"
+	],
+	"DESIGN_IS_CORE": 0,
+	"CLOCK_PORT": "wb_clk_i",
+	"CLOCK_NET": "wb_clk_i",
+	"CLOCK_PERIOD": "24.0",
+	"FP_SIZING": "absolute",
+	"DIE_AREA": "0 0 2800 1760",
+	"FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
+	"FP_PDN_CORE_RING": 0,
+	"PL_BASIC_PLACEMENT": 0,
+	"PL_TARGET_DENSITY": 0.3,
+	"FP_CORE_UTIL": 40,
+	"MAX_FANOUT_CONSTRAINT": 4,
+	"RT_MAX_LAYER": "Metal4",
+	"VDD_NETS": [
+		"vdd"
+	],
+	"GND_NETS": [
+		"vss"
+	],
+    "BASE_SDC_FILE": "dir::base_alpha_soc.sdc",
+	"RUN_HEURISTIC_DIODE_INSERTION": 1,
+	"RUN_CVC": 1,
+	"QUIT_ON_LINTER_ERRORS": 0,
+	"ROUTING_CORES": 6,
+
+	"USE_ARC_ANTENNA_CHECK": 0,
+	"FP_PDN_VPITCH": 100,
+	"FP_PDN_HPITCH": 100,
+	"FP_PDN_VWIDTH": 6.2,
+	"FP_PDN_HWIDTH": 6.2,
+	"GRT_ALLOW_CONGESTION": 1,
+	"GPL_CELL_PADDING": 2,
+	"GRT_REPAIR_ANTENNAS": 0,
+	"GLB_RESIZER_MAX_SLEW_MARGIN": 1.5,
+	"PL_RESIZER_MAX_SLEW_MARGIN": 1.5,
+	"GLB_RESIZER_MAX_CAP_MARGIN": 0.25,
+	"PL_RESIZER_MAX_CAP_MARGIN": 0.25
+}
