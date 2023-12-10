@@ -75,7 +75,6 @@ module VexRiscv (
   wire                IBusCachedPlugin_cache_io_cpu_prefetch_isValid;
   wire                IBusCachedPlugin_cache_io_cpu_fetch_isValid;
   wire                IBusCachedPlugin_cache_io_cpu_fetch_isStuck;
-  wire                IBusCachedPlugin_cache_io_cpu_fetch_isRemoved;
   wire                IBusCachedPlugin_cache_io_cpu_decode_isValid;
   wire                IBusCachedPlugin_cache_io_cpu_decode_isStuck;
   wire                IBusCachedPlugin_cache_io_cpu_decode_isUser;
@@ -89,15 +88,6 @@ module VexRiscv (
   wire                dataCache_1_io_cpu_writeBack_isUser;
   wire       [31:0]   dataCache_1_io_cpu_writeBack_storeData;
   wire       [31:0]   dataCache_1_io_cpu_writeBack_address;
-  wire                dataCache_1_io_cpu_writeBack_fence_SW;
-  wire                dataCache_1_io_cpu_writeBack_fence_SR;
-  wire                dataCache_1_io_cpu_writeBack_fence_SO;
-  wire                dataCache_1_io_cpu_writeBack_fence_SI;
-  wire                dataCache_1_io_cpu_writeBack_fence_PW;
-  wire                dataCache_1_io_cpu_writeBack_fence_PR;
-  wire                dataCache_1_io_cpu_writeBack_fence_PO;
-  wire                dataCache_1_io_cpu_writeBack_fence_PI;
-  wire       [3:0]    dataCache_1_io_cpu_writeBack_fence_FM;
   wire                dataCache_1_io_cpu_flush_valid;
   wire                dataCache_1_io_cpu_flush_payload_singleLine;
   wire       [6:0]    dataCache_1_io_cpu_flush_payload_lineId;
@@ -125,10 +115,8 @@ module VexRiscv (
   wire                dataCache_1_io_cpu_writeBack_accessError;
   wire                dataCache_1_io_cpu_writeBack_isWrite;
   wire                dataCache_1_io_cpu_writeBack_keepMemRspData;
-  wire                dataCache_1_io_cpu_writeBack_exclusiveOk;
   wire                dataCache_1_io_cpu_flush_ready;
   wire                dataCache_1_io_cpu_redo;
-  wire                dataCache_1_io_cpu_writesPending;
   wire                dataCache_1_io_mem_cmd_valid;
   wire                dataCache_1_io_mem_cmd_payload_wr;
   wire                dataCache_1_io_mem_cmd_payload_uncached;
@@ -646,7 +634,6 @@ module VexRiscv (
   wire                IBusCachedPlugin_mmuBus_rsp_allowExecute;
   wire                IBusCachedPlugin_mmuBus_rsp_exception;
   wire                IBusCachedPlugin_mmuBus_rsp_refilling;
-  wire                IBusCachedPlugin_mmuBus_rsp_bypassTranslation;
   wire                IBusCachedPlugin_mmuBus_end;
   wire                IBusCachedPlugin_mmuBus_busy;
   wire                dBus_cmd_valid;
@@ -659,7 +646,6 @@ module VexRiscv (
   wire       [2:0]    dBus_cmd_payload_size;
   wire                dBus_cmd_payload_last;
   wire                dBus_rsp_valid;
-  wire                dBus_rsp_payload_last;
   wire       [31:0]   dBus_rsp_payload_data;
   wire                dBus_rsp_payload_error;
   wire                DBusCachedPlugin_mmuBus_cmd_0_isValid;
@@ -674,7 +660,6 @@ module VexRiscv (
   wire                DBusCachedPlugin_mmuBus_rsp_allowExecute;
   wire                DBusCachedPlugin_mmuBus_rsp_exception;
   wire                DBusCachedPlugin_mmuBus_rsp_refilling;
-  wire                DBusCachedPlugin_mmuBus_rsp_bypassTranslation;
   wire                DBusCachedPlugin_mmuBus_end;
   wire                DBusCachedPlugin_mmuBus_busy;
   reg                 DBusCachedPlugin_redoBranch_valid;
@@ -975,7 +960,6 @@ module VexRiscv (
   wire                when_BranchPlugin_l304;
   wire       [1:0]    CsrPlugin_misa_base;
   wire       [25:0]   CsrPlugin_misa_extensions;
-  reg        [1:0]    CsrPlugin_mtvec_mode;
   reg        [29:0]   CsrPlugin_mtvec_base;
   reg        [31:0]   CsrPlugin_mepc;
   reg                 CsrPlugin_mstatus_MIE;
@@ -1041,7 +1025,6 @@ module VexRiscv (
   reg        [1:0]    CsrPlugin_targetPrivilege;
   reg        [3:0]    CsrPlugin_trapCause;
   wire                CsrPlugin_trapCauseEbreakDebug;
-  reg        [1:0]    CsrPlugin_xtvec_mode;
   reg        [29:0]   CsrPlugin_xtvec_base;
   wire                CsrPlugin_trapEnterDebug;
   wire                when_CsrPlugin_l1390;
@@ -1726,7 +1709,6 @@ module VexRiscv (
     .io_cpu_prefetch_pc                    (IBusCachedPlugin_iBusRsp_stages_0_input_payload[31:0]     ), //i
     .io_cpu_fetch_isValid                  (IBusCachedPlugin_cache_io_cpu_fetch_isValid               ), //i
     .io_cpu_fetch_isStuck                  (IBusCachedPlugin_cache_io_cpu_fetch_isStuck               ), //i
-    .io_cpu_fetch_isRemoved                (IBusCachedPlugin_cache_io_cpu_fetch_isRemoved             ), //i
     .io_cpu_fetch_pc                       (IBusCachedPlugin_iBusRsp_stages_1_input_payload[31:0]     ), //i
     .io_cpu_fetch_data                     (IBusCachedPlugin_cache_io_cpu_fetch_data[31:0]            ), //o
     .io_cpu_fetch_mmuRsp_physicalAddress   (IBusCachedPlugin_mmuBus_rsp_physicalAddress[31:0]         ), //i
@@ -1737,7 +1719,6 @@ module VexRiscv (
     .io_cpu_fetch_mmuRsp_allowExecute      (IBusCachedPlugin_mmuBus_rsp_allowExecute                  ), //i
     .io_cpu_fetch_mmuRsp_exception         (IBusCachedPlugin_mmuBus_rsp_exception                     ), //i
     .io_cpu_fetch_mmuRsp_refilling         (IBusCachedPlugin_mmuBus_rsp_refilling                     ), //i
-    .io_cpu_fetch_mmuRsp_bypassTranslation (IBusCachedPlugin_mmuBus_rsp_bypassTranslation             ), //i
     .io_cpu_fetch_physicalAddress          (IBusCachedPlugin_cache_io_cpu_fetch_physicalAddress[31:0] ), //o
     .io_cpu_decode_isValid                 (IBusCachedPlugin_cache_io_cpu_decode_isValid              ), //i
     .io_cpu_decode_isStuck                 (IBusCachedPlugin_cache_io_cpu_decode_isStuck              ), //i
@@ -1781,7 +1762,6 @@ module VexRiscv (
     .io_cpu_memory_mmuRsp_allowExecute      (DBusCachedPlugin_mmuBus_rsp_allowExecute         ), //i
     .io_cpu_memory_mmuRsp_exception         (DBusCachedPlugin_mmuBus_rsp_exception            ), //i
     .io_cpu_memory_mmuRsp_refilling         (DBusCachedPlugin_mmuBus_rsp_refilling            ), //i
-    .io_cpu_memory_mmuRsp_bypassTranslation (DBusCachedPlugin_mmuBus_rsp_bypassTranslation    ), //i
     .io_cpu_writeBack_isValid               (dataCache_1_io_cpu_writeBack_isValid             ), //i
     .io_cpu_writeBack_isStuck               (writeBack_arbitration_isStuck                    ), //i
     .io_cpu_writeBack_isFiring              (writeBack_arbitration_isFiring                   ), //i
@@ -1795,22 +1775,11 @@ module VexRiscv (
     .io_cpu_writeBack_unalignedAccess       (dataCache_1_io_cpu_writeBack_unalignedAccess     ), //o
     .io_cpu_writeBack_accessError           (dataCache_1_io_cpu_writeBack_accessError         ), //o
     .io_cpu_writeBack_keepMemRspData        (dataCache_1_io_cpu_writeBack_keepMemRspData      ), //o
-    .io_cpu_writeBack_fence_SW              (dataCache_1_io_cpu_writeBack_fence_SW            ), //i
-    .io_cpu_writeBack_fence_SR              (dataCache_1_io_cpu_writeBack_fence_SR            ), //i
-    .io_cpu_writeBack_fence_SO              (dataCache_1_io_cpu_writeBack_fence_SO            ), //i
-    .io_cpu_writeBack_fence_SI              (dataCache_1_io_cpu_writeBack_fence_SI            ), //i
-    .io_cpu_writeBack_fence_PW              (dataCache_1_io_cpu_writeBack_fence_PW            ), //i
-    .io_cpu_writeBack_fence_PR              (dataCache_1_io_cpu_writeBack_fence_PR            ), //i
-    .io_cpu_writeBack_fence_PO              (dataCache_1_io_cpu_writeBack_fence_PO            ), //i
-    .io_cpu_writeBack_fence_PI              (dataCache_1_io_cpu_writeBack_fence_PI            ), //i
-    .io_cpu_writeBack_fence_FM              (dataCache_1_io_cpu_writeBack_fence_FM[3:0]       ), //i
-    .io_cpu_writeBack_exclusiveOk           (dataCache_1_io_cpu_writeBack_exclusiveOk         ), //o
     .io_cpu_redo                            (dataCache_1_io_cpu_redo                          ), //o
     .io_cpu_flush_valid                     (dataCache_1_io_cpu_flush_valid                   ), //i
     .io_cpu_flush_ready                     (dataCache_1_io_cpu_flush_ready                   ), //o
     .io_cpu_flush_payload_singleLine        (dataCache_1_io_cpu_flush_payload_singleLine      ), //i
     .io_cpu_flush_payload_lineId            (dataCache_1_io_cpu_flush_payload_lineId[6:0]     ), //i
-    .io_cpu_writesPending                   (dataCache_1_io_cpu_writesPending                 ), //o
     .io_mem_cmd_valid                       (dataCache_1_io_mem_cmd_valid                     ), //o
     .io_mem_cmd_ready                       (toplevel_dataCache_1_io_mem_cmd_rValidN          ), //i
     .io_mem_cmd_payload_wr                  (dataCache_1_io_mem_cmd_payload_wr                ), //o
@@ -1821,7 +1790,6 @@ module VexRiscv (
     .io_mem_cmd_payload_size                (dataCache_1_io_mem_cmd_payload_size[2:0]         ), //o
     .io_mem_cmd_payload_last                (dataCache_1_io_mem_cmd_payload_last              ), //o
     .io_mem_rsp_valid                       (dBus_rsp_valid                                   ), //i
-    .io_mem_rsp_payload_last                (dBus_rsp_payload_last                            ), //i
     .io_mem_rsp_payload_data                (dBus_rsp_payload_data[31:0]                      ), //i
     .io_mem_rsp_payload_error               (dBus_rsp_payload_error                           ), //i
     .clk                                    (clk                                              ), //i
@@ -4343,16 +4311,6 @@ module VexRiscv (
   end
 
   assign CsrPlugin_trapCauseEbreakDebug = 1'b0;
-  always @(*) begin
-    CsrPlugin_xtvec_mode = 2'bxx;
-    case(CsrPlugin_targetPrivilege)
-      2'b11 : begin
-        CsrPlugin_xtvec_mode = CsrPlugin_mtvec_mode;
-      end
-      default : begin
-      end
-    endcase
-  end
 
   always @(*) begin
     CsrPlugin_xtvec_base = 30'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
@@ -5854,15 +5812,6 @@ module DataCache (
   output wire          io_cpu_writeBack_unalignedAccess,
   output reg           io_cpu_writeBack_accessError,
   output wire          io_cpu_writeBack_keepMemRspData,
-  input  wire          io_cpu_writeBack_fence_SW,
-  input  wire          io_cpu_writeBack_fence_SR,
-  input  wire          io_cpu_writeBack_fence_SO,
-  input  wire          io_cpu_writeBack_fence_SI,
-  input  wire          io_cpu_writeBack_fence_PW,
-  input  wire          io_cpu_writeBack_fence_PR,
-  input  wire          io_cpu_writeBack_fence_PO,
-  input  wire          io_cpu_writeBack_fence_PI,
-  input  wire [3:0]    io_cpu_writeBack_fence_FM,
   output wire          io_cpu_writeBack_exclusiveOk,
   output reg           io_cpu_redo,
   input  wire          io_cpu_flush_valid,
@@ -5880,7 +5829,6 @@ module DataCache (
   output reg  [2:0]    io_mem_cmd_payload_size,
   output wire          io_mem_cmd_payload_last,
   input  wire          io_mem_rsp_valid,
-  input  wire          io_mem_rsp_payload_last,
   input  wire [31:0]   io_mem_rsp_payload_data,
   input  wire          io_mem_rsp_payload_error,
   input  wire          clk,
@@ -5968,7 +5916,6 @@ module DataCache (
   reg                 stageB_mmuRsp_allowExecute;
   reg                 stageB_mmuRsp_exception;
   reg                 stageB_mmuRsp_refilling;
-  reg                 stageB_mmuRsp_bypassTranslation;
   wire                when_DataCache_l826;
   reg                 stageB_tagsReadRsp_0_valid;
   reg                 stageB_tagsReadRsp_0_error;
@@ -6576,7 +6523,6 @@ module DataCache (
       stageB_mmuRsp_allowExecute <= io_cpu_memory_mmuRsp_allowExecute;
       stageB_mmuRsp_exception <= io_cpu_memory_mmuRsp_exception;
       stageB_mmuRsp_refilling <= io_cpu_memory_mmuRsp_refilling;
-      stageB_mmuRsp_bypassTranslation <= io_cpu_memory_mmuRsp_bypassTranslation;
     end
     if(when_DataCache_l826) begin
       stageB_tagsReadRsp_0_valid <= ways_0_tagsReadRsp_valid;
@@ -6681,7 +6627,6 @@ module InstructionCache (
   input  wire [31:0]   io_cpu_prefetch_pc,
   input  wire          io_cpu_fetch_isValid,
   input  wire          io_cpu_fetch_isStuck,
-  input  wire          io_cpu_fetch_isRemoved,
   input  wire [31:0]   io_cpu_fetch_pc,
   output wire [31:0]   io_cpu_fetch_data,
   input  wire [31:0]   io_cpu_fetch_mmuRsp_physicalAddress,
@@ -6692,7 +6637,6 @@ module InstructionCache (
   input  wire          io_cpu_fetch_mmuRsp_allowExecute,
   input  wire          io_cpu_fetch_mmuRsp_exception,
   input  wire          io_cpu_fetch_mmuRsp_refilling,
-  input  wire          io_cpu_fetch_mmuRsp_bypassTranslation,
   output wire [31:0]   io_cpu_fetch_physicalAddress,
   input  wire          io_cpu_decode_isValid,
   input  wire          io_cpu_decode_isStuck,
@@ -6775,7 +6719,6 @@ module InstructionCache (
   reg                 decodeStage_mmuRsp_allowExecute;
   reg                 decodeStage_mmuRsp_exception;
   reg                 decodeStage_mmuRsp_refilling;
-  reg                 decodeStage_mmuRsp_bypassTranslation;
   wire                when_InstructionCache_l459_1;
   reg                 decodeStage_hit_valid;
   wire                when_InstructionCache_l459_2;
@@ -6959,7 +6902,6 @@ module InstructionCache (
       decodeStage_mmuRsp_allowExecute <= io_cpu_fetch_mmuRsp_allowExecute;
       decodeStage_mmuRsp_exception <= io_cpu_fetch_mmuRsp_exception;
       decodeStage_mmuRsp_refilling <= io_cpu_fetch_mmuRsp_refilling;
-      decodeStage_mmuRsp_bypassTranslation <= io_cpu_fetch_mmuRsp_bypassTranslation;
     end
     if(when_InstructionCache_l459_1) begin
       decodeStage_hit_valid <= fetchStage_hit_valid;
