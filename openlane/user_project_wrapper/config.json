@@ -10,18 +10,33 @@
 	"CLOCK_PERIOD": 25,
 	"MACRO_PLACEMENT_CFG": "dir::macro.cfg",
 	"VERILOG_FILES_BLACKBOX": [
-		"dir::../../verilog/gl/alpha_soc.v"
+		"dir::../../verilog/gl/alpha_soc.v",
+		"dir::../../verilog/gl/gf180_ram_512x8_wrapper_as2650.v"
 	],
-	"EXTRA_LEFS": "dir::../../lef/alpha_soc.lef",
-	"EXTRA_GDS_FILES": "dir::../../gds/alpha_soc.gds",
-	"EXTRA_LIBS": "dir::../../lib/alpha_soc.lib",
+	"EXTRA_LEFS": [
+		"dir::../../lef/alpha_soc.lef",
+		"dir::../../lef/gf180_ram_512x8_wrapper_as2650.lef"
+	],
+	"EXTRA_GDS_FILES": [
+		"dir::../../gds/alpha_soc.gds",
+		"dir::../../gds/gf180_ram_512x8_wrapper.gds"
+	],
+	"EXTRA_LIBS": [
+		"dir::../../lib/alpha_soc.lib",
+		"dir::../../lib/gf180_ram_512x8_wrapper.lib"
+	],
 	"EXTRA_SPEFS": [
 		"alpha_soc",
 		"dir::../../spef/multicorner/alpha_soc.min.spef",
 		"dir::../../spef/multicorner/alpha_soc.nom.spef",
-		"dir::../../spef/multicorner/alpha_soc.max.spef"
+		"dir::../../spef/multicorner/alpha_soc.max.spef",
+
+		"gf180_ram_512x8_wrapper_as2650",
+		"dir::../../spef/multicorner/gf180_ram_512x8_wrapper_as2650.min.spef",
+		"dir::../../spef/multicorner/gf180_ram_512x8_wrapper_as2650.nom.spef",
+		"dir::../../spef/multicorner/gf180_ram_512x8_wrapper_as2650.max.spef"
 	],
-	"FP_PDN_MACRO_HOOKS": "mprj vdd vss vdd vss",
+	"FP_PDN_MACRO_HOOKS": "mprj vdd vss VDD VSS, sram0 vdd vss VDD VSS, sram1 vdd vss VDD VSS, sram2 vdd vss VDD VSS, sram3 vdd vss VDD VSS,",
 	"QUIT_ON_SYNTH_CHECKS": 0,
 	"FP_PDN_CHECK_NODES": 0,
 	"SYNTH_ELABORATE_ONLY": 1,

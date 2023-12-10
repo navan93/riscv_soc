@@ -5,7 +5,8 @@
 	"VERILOG_FILES": [
 		"dir::../../verilog/rtl/defines.v",
 		"dir::../../verilog/rtl/alpha_soc/alpha_soc.v",
-		"dir::../../verilog/rtl/alpha_soc/VexRiscv_Min.v"
+		"dir::../../verilog/rtl/alpha_soc/Cfu.v",
+		"dir::../../verilog/rtl/alpha_soc/VexRiscv_FullCfu.v"
 	],
 	"DESIGN_IS_CORE": 0,
 	"CLOCK_PORT": "wb_clk_i",

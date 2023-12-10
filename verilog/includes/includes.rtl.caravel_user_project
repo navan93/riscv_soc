@@ -1,5 +1,6 @@
 # Caravel user project includes
 -v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v
 -v $(USER_PROJECT_VERILOG)/rtl/alpha_soc/alpha_soc.v
--v $(USER_PROJECT_VERILOG)/rtl/alpha_soc/VexRiscv_Min.v
-
+-v $(USER_PROJECT_VERILOG)/rtl/alpha_soc/Cfu.v
+-v $(USER_PROJECT_VERILOG)/rtl/alpha_soc/VexRiscv_FullCfu.v
+-v $(USER_PROJECT_VERILOG)/rtl/gf180_ram_512x8_wrapper.v

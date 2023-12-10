@@ -66,6 +66,19 @@ module user_project_wrapper #(
     output [2:0]                user_irq
 );
 
+wire CEN_all;
+wire [3:0] GWEN;
+wire [7:0] WEN_all;
+wire [8:0] A_all;
+wire [7:0] D0;
+wire [7:0] D1;
+wire [7:0] D2;
+wire [7:0] D3;
+wire [7:0] Q0;
+wire [7:0] Q1;
+wire [7:0] Q2;
+wire [7:0] Q3;
+
 /*--------------------------------------*/
 /* User project is instantiated  here   */
 /*--------------------------------------*/
@@ -90,18 +103,93 @@ alpha_soc mprj (
     .wbs_dat_o  (wbs_dat_o),
 
     // Logic Analyzer
-    // .la_data_in (la_data_in),
+    .la_data_in (la_data_in),
     .la_data_out(la_data_out),
-    // .la_oenb    (la_oenb),
+    .la_oenb    (la_oenb),
 
     // IO Pads
-    .io_in      (io_in),
+    .io_i       (io_in),
     .io_out     (io_out),
     .io_oeb     (io_oeb),
 
     // IRQ
-    .user_irq   (user_irq)
+    .user_irq   (user_irq),
+
+    //GF180 SRAM
+    .gf180_sram_GWEN (GWEN),
+    .gf180_sram_WEN  (WEN_all),
+    .gf180_sram_CEN  (CEN_all),
+    .gf180_sram_A    (A_all),
+    .gf180_sram_D0   (D0),
+    .gf180_sram_D1   (D1),
+    .gf180_sram_D2   (D2),
+    .gf180_sram_D3   (D3),
+    .gf180_sram_Q0   (Q0),
+    .gf180_sram_Q1   (Q1),
+    .gf180_sram_Q2   (Q2),
+    .gf180_sram_Q3   (Q3),
 );
+
+/*--------------------------------------*/
+/* GF180 SRAM Hard Macros               */
+/*--------------------------------------*/
+
+gf180_ram_512x8_wrapper_as2650 sram0(
+`ifdef USE_POWER_PINS
+    .VDD    (vdd),
+    .VSS    (vss),
+`endif
+    .CLK    (wb_clk_i),
+    .CEN    (CEN_all),
+    .WEN    (WEN_all),
+    .A      (A_all),
+    .D      (D0),
+    .GWEN   (GWEN[0]),
+    .Q      (Q0)
+);
+
+gf180_ram_512x8_wrapper_as2650 sram1(
+`ifdef USE_POWER_PINS
+    .VDD    (vdd),
+    .VSS    (vss),
+`endif
+    .CLK    (wb_clk_i),
+    .CEN    (CEN_all),
+    .WEN    (WEN_all),
+    .A      (A_all),
+    .D      (D1),
+    .GWEN   (GWEN[1]),
+    .Q      (Q1)
+);
+
+gf180_ram_512x8_wrapper_as2650 sram2(
+`ifdef USE_POWER_PINS
+    .VDD    (vdd),
+    .VSS    (vss),
+`endif
+    .CLK    (wb_clk_i),
+    .CEN    (CEN_all),
+    .WEN    (WEN_all),
+    .A      (A_all),
+    .D      (D2),
+    .GWEN   (GWEN[2]),
+    .Q      (Q2)
+);
+
+gf180_ram_512x8_wrapper_as2650 sram3(
+`ifdef USE_POWER_PINS
+    .VDD    (vdd),
+    .VSS    (vss),
+`endif
+    .CLK    (wb_clk_i),
+    .CEN    (CEN_all),
+    .WEN    (WEN_all),
+    .A      (A_all),
+    .D      (D3),
+    .GWEN   (GWEN[3]),
+    .Q      (Q3)
+);
+
 
 endmodule	// user_project_wrapper
 
